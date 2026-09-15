@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<title>LottoAI · 彩票数据研究站</title>
+<link rel="manifest" href="manifest.json">
+<style>
+:root{--bg:#07101f;--card:#0e1a2d;--card2:#111f35;--text:#eef4ff;--muted:#8fa3bf;--line:#20324c;--red:#ef4444;--blue:#3b82f6;--green:#22c55e;--gold:#f59e0b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#122542 0,#07101f 48%);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.brand{font-size:25px;font-weight:800}.brand span{color:#60a5fa}.muted{color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:8px;margin:12px 0;overflow:auto}.tab{border:1px solid var(--line);background:#0c1728;color:var(--muted);padding:9px 14px;border-radius:999px;cursor:pointer;white-space:nowrap}.tab.active{background:#183152;color:#fff;border-color:#315987}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.card{background:linear-gradient(180deg,#102039,#0b1728);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 12px 30px #0004;margin:14px 0}.wide{grid-column:1/-1}
+h1,h2,h3{margin:0 0 10px}.hero{display:flex;justify-content:space-between;gap:15px;align-items:center}.hero .issue{font-size:13px;color:var(--muted)}
+.balls{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.ball{width:39px;height:39px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;background:var(--red);box-shadow:inset 0 -3px 7px #0004}.ball.blue{background:var(--blue)}
+.metric{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}.metric:last-child{border:0}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 8px;margin:3px;font-size:12px;color:#cbd8ea}
+.rank{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}.rank:last-child{border:0}.ranknum{color:var(--gold);width:25px;font-weight:800}.small{font-size:12px;color:var(--muted)}button{background:#183152;border:1px solid #315987;color:#fff;border-radius:10px;padding:9px 12px;cursor:pointer}
+.notice{font-size:12px;color:#b9c7d9;line-height:1.7}.good{color:#86efac}.warn{color:#fcd34d}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.wide{grid-column:auto}.hero{align-items:flex-start;flex-direction:column}.ball{width:36px;height:36px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div><div class="brand">🎯 Lotto<span>AI</span></div><div class="muted">数据 · 回测 · 候选组合 · 每日更新</div></div>
+  <button id="refresh">刷新数据</button>
+</header>
+<div class="tabs"><button class="tab active" data-game="ssq">双色球</button><button class="tab" data-game="dlt">大乐透</button></div>
+<div id="app"></div>
+<div class="card notice">
+  <b>重要说明：</b>本网站用于概率统计、数据分析和软件研究。历史开奖独立随机，任何“评分”都不是中奖概率，也不代表能预测下一期。正式开奖信息请以官方渠道为准。
+</div>
+</div>
+<script src="app.js"></script>
+</body></html>
