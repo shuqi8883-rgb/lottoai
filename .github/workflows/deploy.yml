@@ -44,11 +44,27 @@ jobs:
       - name: Sync football and basketball fixtures/results
         run: python scripts/update_sports.py
 
+      - name: Activate sports display fix
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('docs/index.html')
+          s = p.read_text(encoding='utf-8')
+          tag = '<script src="sports-fix.js?v=20260915-1"></script>'
+          if tag not in s:
+              if '</body>' in s:
+                  s = s.replace('</body>', tag + '</body>')
+              else:
+                  s += tag
+              p.write_text(s, encoding='utf-8')
+          print('sports display fix activated')
+          PY
+
       - name: Save synchronized data
         run: |
           git config user.name "lottoai-bot"
           git config user.email "actions@github.com"
-          git add docs/data/ssq.json docs/data/dlt.json docs/data/sports_predictions.json
+          git add docs/data/ssq.json docs/data/dlt.json docs/data/sports.json docs/data/sports_predictions.json docs/index.html
           if git diff --cached --quiet; then
             echo "No repository data changes."
           else
