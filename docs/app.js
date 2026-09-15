@@ -1,205 +1,43 @@
-const DATA = { ssq: 'data/ssq.json', dlt: 'data/dlt.json' };
-let game = 'ssq';
-let rows = [];
-let seedBase = 0;
+const LOTTERY_DATA={ssq:'data/ssq.json',dlt:'data/dlt.json'};
+let page='lottery',game='ssq',sportData=null,sport='football',league='all',rows=[],seedBase=1;
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const pad=n=>String(n).padStart(2,'0'),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const sum=a=>a.reduce((x,y)=>x+y,0),sorted=a=>[...a].sort((a,b)=>a-b),isDLT=()=>game==='dlt',mainMax=()=>isDLT()?35:33,mainPick=()=>isDLT()?5:6,backMax=()=>isDLT()?12:16,backPick=()=>isDLT()?2:1;
+const mainNums=r=>(isDLT()?r.front:r.red).map(Number),backNums=r=>(isDLT()?r.back:r.blue).map(Number);
+function balls(ns,cls=''){return ns.map(n=>`<span class="ball ${cls}">${pad(n)}</span>`).join('')}
+function chips(ns){return ns.map(n=>`<span class="chip">${pad(n)}</span>`).join('')}
+function freq(list,back=false){const f={};for(const r of list.slice(0,100))for(const n of (back?backNums(r):mainNums(r)))f[n]=(f[n]||0)+1;return f}
+function omission(list){const o={};for(let n=1;n<=mainMax();n++)o[n]=list.length;for(let i=0;i<list.length;i++)for(const n of mainNums(list[i]))if(o[n]===list.length)o[n]=i;return o}
+function topKeys(o,n,high=true){return Object.keys(o).map(Number).sort((a,b)=>high?(o[b]-o[a]||a-b):(o[a]-o[b]||a-b)).slice(0,n)}
+function zone(c){const t=mainMax()/3;return[c.filter(n=>n<=t).length,c.filter(n=>n>t&&n<=2*t).length,c.filter(n=>n>2*t).length]}
+function makeRng(seed){let x=(seed>>>0)||1;return()=>{x^=x<<13;x^=x>>>17;x^=x<<5;return(x>>>0)/4294967296}}
+function combo(max,k,rng){const a=[];while(a.length<k){const n=1+Math.floor(rng()*max);if(!a.includes(n))a.push(n)}return sorted(a)}
+function lotteryStats(){const f=freq(rows),bf=freq(rows,true),om=omission(rows),sums=rows.slice(0,100).map(r=>sum(mainNums(r))),odds=rows.slice(0,100).map(r=>mainNums(r).filter(n=>n%2).length);return{f,bf,om,avgSum:sums.reduce((a,b)=>a+b,0)/sums.length,avgOdd:odds.reduce((a,b)=>a+b,0)/odds.length,hot:topKeys(f,8),cold:topKeys(f,8,false),miss:topKeys(om,8)}}
+function comboScore(c,s){let v=0,target=100*c.length/mainMax();for(const n of c){const f=s.f[n]||0,o=s.om[n]||0;v+=1.6-Math.min(Math.abs(f-target)/9,1.6);v+=Math.min(o/18,1.2)*.2}const odd=c.filter(n=>n%2).length;v+=Math.max(0,1.15-Math.abs(odd-s.avgOdd)*.65);v+=Math.max(0,1.1-Math.abs(sum(c)-s.avgSum)/75);if(Math.min(...zone(c))>=1)v+=.55;let con=0;for(let i=1;i<c.length;i++)if(c[i]===c[i-1]+1)con++;v-=Math.max(0,con-2)*.45;if(c[c.length-1]-c[0]<mainMax()*.45)v-=.55;return v}
+function candidates(count=6){const s=lotteryStats(),rng=makeRng(seedBase+(isDLT()?7919:3571)),best=[];for(let i=0;i<1800;i++){const c=combo(mainMax(),mainPick(),rng),b=combo(backMax(),backPick(),rng);let score=comboScore(c,s);for(const n of b)score+=Math.min((s.bf[n]||0)/8,1)*.18;best.push({c,b,score})}best.sort((a,b)=>b.score-a.score);const out=[];for(const x of best){if(out.every(y=>x.c.filter(n=>y.c.includes(n)).length<=(isDLT()?3:4)))out.push(x);if(out.length>=count)break}return out}
+function metric(label,value,sub=''){return`<div class="metric"><span>${label}</span><strong>${value}</strong>${sub?`<small>${sub}</small>`:''}</div>`}
+function card(title,body,cls=''){return`<section class="card ${cls}"><h2>${title}</h2>${body}</section>`}
+async function loadLottery(){
+ $('#app').innerHTML=`<section class="card loading"><div class="spinner"></div><h2>正在同步${isDLT()?'大乐透':'双色球'}</h2><p class="muted">正在读取最新开奖记录…</p></section>`;
+ try{const r=await fetch(`${LOTTERY_DATA[game]}?v=${Date.now()}`,{cache:'no-store'}),data=await r.json();if(!Array.isArray(data)||!data.length)throw Error('数据为空');rows=data.filter(x=>Array.isArray(isDLT()?x.front:x.red)&&Array.isArray(isDLT()?x.back:x.blue));if(!rows.length)throw Error('没有有效记录');seedBase=Number(String(rows[0].issue).replace(/\D/g,''))||1;renderLottery()}catch(e){$('#app').innerHTML=`<section class="card error"><h2>彩票数据暂时无法加载</h2><p class="muted">请点击右上角刷新重试。</p><small>${esc(e.message)}</small></section>`}}
+function renderLottery(){const s=lotteryStats(),latest=rows[0],main=mainNums(latest),back=backNums(latest),z=zone(main),name=isDLT()?'超级大乐透':'双色球';$('#subnav').innerHTML=`<div class="sub-nav"><button class="sub-btn ${game==='ssq'?'active':''}" data-game="ssq">双色球</button><button class="sub-btn ${game==='dlt'?'active':''}" data-game="dlt">超级大乐透</button></div>`;bindSub();$('#app').innerHTML=`<section class="hero"><div class="eyebrow">${name} · 最新数据</div><h1>${name}</h1><p class="muted">第 ${esc(latest.issue)} 期 · ${esc(latest.date)}</p><div class="draw-label">最新开奖号码</div><div class="balls big">${balls(main)}<span class="divider">+</span>${balls(back,'blue')}</div><div class="hero-metrics"><div><span>主区和值</span><b>${sum(main)}</b></div><div><span>奇偶</span><b>${main.filter(n=>n%2).length}:${main.filter(n=>n%2===0).length}</b></div><div><span>三区</span><b>${z.join(' · ')}</b></div><div><span>样本</span><b>${Math.min(rows.length,100)}期</b></div></div></section><div class="section-title">数据画像<span>近100期统计研究</span></div><div class="grid">${card('🔥 热号',`<div class="chips">${chips(s.hot)}</div><p class="hint">历史频率高，不代表下一期更容易出现。</p>`)}${card('❄️ 冷号',`<div class="chips">${chips(s.cold)}</div><p class="hint">仅作组合评分参考。</p>`)}${card('⏳ 高遗漏',`<div class="chips">${chips(s.miss)}</div><p class="hint">遗漏不等于“必出”。</p>`)}${card('📐 分布画像',`${metric('平均和值',s.avgSum.toFixed(1))}${metric('平均奇数',s.avgOdd.toFixed(2))}${metric('最近和值',sum(main))}`)}</div><section class="card"><div class="section-head"><div><h2>🎯 今日候选组合</h2><p>统计评分 + 结构约束</p></div><button id="reroll">换一组</button></div><div id="candidateBox"><div class="loading">正在计算…</div></div></section><div class="grid">${card('📋 最近10期',rows.slice(0,10).map(r=>`<div class="recent-row"><span>#${esc(r.issue)}</span><div>${balls(mainNums(r),'mini')}${balls(backNums(r),'blue mini')}</div><em>${esc(r.date)}</em></div>`).join(''),'wide')}${card('🧠 评分逻辑',`${metric('频率偏离','30%')} ${metric('和值 / 奇偶','30%')} ${metric('遗漏','10%')} ${metric('三区 / 连号','20%')} ${metric('组合去重','10%')}`)}${card('🔬 研究状态',`${metric('数据同步','正常')} ${metric('近100期统计','正常')} ${metric('候选组合','正常')} ${metric('滚动回测','准备中')}`)}</div><section class="card notice"><b>重要说明</b><p>彩票开奖结果具有随机性。本站内容是统计研究和娱乐工具，不代表真实中奖概率，也不能保证结果。</p></section>`;renderCandidates()}
+function renderCandidates(){const box=$('#candidateBox');if(!box)return;const picks=candidates();box.innerHTML=picks.map((x,i)=>`<div class="candidate"><div class="rank">${i+1}</div><div class="candidate-main"><div class="balls">${balls(x.c)}<span class="divider">+</span>${balls(x.b,'blue')}</div><div class="score">组合评分 <b>${x.score.toFixed(2)}</b></div></div>${i===0?'<span class="tag">综合优先</span>':''}</div>`).join('');$('#reroll')?.addEventListener('click',()=>{seedBase+=97;renderCandidates()})}
+function bindSub(){$$('.sub-btn').forEach(b=>b.onclick=()=>{game=b.dataset.game;loadLottery()})}
 
-const $ = (s) => document.querySelector(s);
-const pad = (n) => String(n).padStart(2, '0');
-const isDLT = () => game === 'dlt';
-const mainMax = () => isDLT() ? 35 : 33;
-const mainPick = () => isDLT() ? 5 : 6;
-const backMax = () => isDLT() ? 12 : 16;
-const backPick = () => isDLT() ? 2 : 1;
-const mainNums = (r) => (isDLT() ? r.front : r.red).map(Number);
-const backNums = (r) => (isDLT() ? r.back : r.blue).map(Number);
+async function loadSports(){
+ $('#app').innerHTML=`<section class="card loading"><div class="spinner"></div><h2>正在同步${sport==='football'?'足球':'篮球'}赛事</h2><p class="muted">正在读取今日赛程与模型预测…</p></section>`;
+ try{const r=await fetch(`data/sports.json?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`sports.json HTTP ${r.status}`);sportData=await r.json();renderSports()}catch(e){$('#app').innerHTML=`<section class="card error"><h2>体育数据正在准备</h2><p class="muted">第一次部署需要先完成数据同步，稍后点刷新即可。</p><small>${esc(e.message)}</small></section>`}}
+function today(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
+function pct(v){return`${Math.round((v||0)*100)}%`}
+function statusText(g){return g.status==='live'?'进行中':g.status==='finished'?'已结束':'未开始'}
+function renderSports(){
+ const leagues=(sportData?.leagues||[]).filter(x=>x.sport===sport),games=(sportData?.games||[]).filter(g=>g.sport===sport&&g.dateLocal.startsWith(today()));
+ $('#subnav').innerHTML=`<div class="sub-nav"><button class="sub-btn ${league==='all'?'active':''}" data-league="all">全部赛事</button>${leagues.map(l=>`<button class="sub-btn ${league===l.id?'active':''}" data-league="${esc(l.id)}">${esc(l.name)}</button>`).join('')}</div>`;
+ $$('.sub-btn').forEach(b=>b.onclick=()=>{league=b.dataset.league;renderSports()});
+ const list=games.filter(g=>league==='all'||g.league===league).sort((a,b)=>new Date(a.date)-new Date(b.date));
+ const live=list.filter(g=>g.status==='live').length,up=list.filter(g=>g.status==='scheduled').length,fin=list.filter(g=>g.status==='finished').length;
+ $('#app').innerHTML=`<section class="hero"><div class="eyebrow">DAILY SPORTS · ${today()}</div><h1>${sport==='football'?'⚽ 足球每日预测':'🏀 篮球每日预测'}</h1><p class="muted">今日 ${list.length} 场 · ${live} 进行中 · ${up} 未开始 · ${fin} 已结束</p><div class="grid"><div>${metric('数据更新时间',(sportData.updatedAt||'').replace('T',' ').slice(0,16))}</div><div>${metric('模型','近10场攻防统计')}</div></div></section>${list.length?`<section class="card"><div class="sports-toolbar"><span class="status">今日赛程</span><span class="status">胜负预测</span><span class="status">比分/总分</span></div>${list.map(matchHTML).join('')}</section>`:`<section class="card empty">今天暂无已同步的${sport==='football'?'足球':'篮球'}赛事。<div class="footer-note">可以切换其他赛事分类，或稍后点击刷新。</div></section>`}<section class="card notice"><b>模型说明</b><p>${sport==='football'?'足球：近10场进失球 + 主场修正 + 泊松分布，输出胜/平/负、参考比分、总进球区间及大2.5球概率。':'篮球：近10场得失分 + 主场修正 + Logistic 胜率，输出胜负、参考比分与总得分区间。'} 数据用于研究，不是确定性结果。</p></section>`}
+function matchHTML(g){const p=g.prediction,finished=g.status==='finished',score=finished||g.status==='live'?`${g.homeScore??'-'} - ${g.awayScore??'-'}`:(p?.score||'-');let pred='';if(p){const home=p.homeWin,away=p.awayWin,draw=p.draw;pred=`<div class="pred-grid"><div class="pred"><span>${sport==='football'?'主胜':'主队胜'}</span><b>${pct(home)}</b></div>${sport==='football'?`<div class="pred"><span>平局</span><b>${pct(draw)}</b></div>`:''}<div class="pred"><span>客胜</span><b>${pct(away)}</b></div><div class="pred"><span>${sport==='football'?'总进球':'总得分'}</span><b>${p.total}</b></div></div><div class="pred-grid"><div class="pred"><span>参考${sport==='football'?'比分':'比分'}</span><b>${p.score}</b></div><div class="pred"><span>${sport==='football'?'进球区间':'得分区间'}</span><b>${p.totalBand}</b></div><div class="pred"><span>模型信心</span><b>${pct(p.confidence)}</b></div>${sport==='football'?`<div class="pred"><span>大2.5球</span><b>${pct(p.over25)}</b></div>`:`<div class="pred"><span>总分预测</span><b>${p.total}</b></div>`}</div><div class="bar"><i style="width:${Math.round((p.confidence||.5)*100)}%"></i></div><div class="model-note">${esc(p.model)}</div>`}return`<div class="match"><div class="match-top"><span>${esc(g.leagueName)} · ${esc(g.dateLocal.slice(11,16))}</span><span class="status ${g.status==='live'?'live':''}">${statusText(g)}</span></div><div class="teams"><div class="team">${esc(g.home)}</div><div class="final-score">${score}</div><div class="team away">${esc(g.away)}</div></div>${pred}</div>`}
 
-function esc(v) {
-  return String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
-}
-function sum(a) { return a.reduce((x, y) => x + y, 0); }
-function avg(a) { return a.length ? sum(a) / a.length : 0; }
-function balls(nums, type = '') { return nums.map(n => `<span class="ball ${type}">${pad(n)}</span>`).join(''); }
-function chips(nums) { return nums.map(n => `<span class="chip">${pad(n)}</span>`).join(''); }
-function sorted(a) { return [...a].sort((x,y) => x-y); }
-
-function freq(list, limit = 100) {
-  const f = {};
-  for (const r of list.slice(0, limit)) for (const n of mainNums(r)) f[n] = (f[n] || 0) + 1;
-  return f;
-}
-function backFreq(list, limit = 100) {
-  const f = {};
-  for (const r of list.slice(0, limit)) for (const n of backNums(r)) f[n] = (f[n] || 0) + 1;
-  return f;
-}
-function omission(list) {
-  const o = {};
-  for (let n=1; n<=mainMax(); n++) o[n] = list.length;
-  for (let i=0; i<list.length; i++) for (const n of mainNums(list[i])) if (o[n] === list.length) o[n] = i;
-  return o;
-}
-function topKeys(obj, count, high = true) {
-  return Object.keys(obj).map(Number).sort((a,b) => high ? (obj[b]-obj[a] || a-b) : (obj[a]-obj[b] || a-b)).slice(0,count);
-}
-function recentSums(limit=100) { return rows.slice(0,limit).map(r => sum(mainNums(r))); }
-function recentOdd(limit=100) { return rows.slice(0,limit).map(r => mainNums(r).filter(n => n%2).length); }
-function zoneCount(c) {
-  const max = mainMax();
-  const third = max / 3;
-  return [c.filter(n => n <= third).length, c.filter(n => n > third && n <= third*2).length, c.filter(n => n > third*2).length];
-}
-
-function stats() {
-  const f = freq(rows, 100), bf = backFreq(rows, 100), om = omission(rows);
-  const sums = recentSums(100), odds = recentOdd(100);
-  const avgSum = avg(sums), avgOdd = avg(odds);
-  const hot = topKeys(f, 8, true), cold = topKeys(f, 8, false), miss = topKeys(om, 8, true);
-  return { f, bf, om, sums, odds, avgSum, avgOdd, hot, cold, miss };
-}
-
-function makeRng(seed) {
-  let x = (seed >>> 0) || 1;
-  return () => {
-    x ^= x << 13; x ^= x >>> 17; x ^= x << 5;
-    return (x >>> 0) / 4294967296;
-  };
-}
-function randomCombo(max, k, rng) {
-  const out = [];
-  while (out.length < k) {
-    const n = 1 + Math.floor(rng() * max);
-    if (!out.includes(n)) out.push(n);
-  }
-  return sorted(out);
-}
-function comboScore(c, s) {
-  const k = c.length;
-  const targetFreq = 100 * k / mainMax();
-  let score = 0;
-  for (const n of c) {
-    const f = s.f[n] || 0;
-    const o = s.om[n] || 0;
-    score += 1.6 - Math.min(Math.abs(f - targetFreq) / 9, 1.6);
-    score += Math.min(o / 18, 1.2) * 0.20;
-  }
-  const odd = c.filter(n => n%2).length;
-  score += Math.max(0, 1.15 - Math.abs(odd - s.avgOdd) * 0.65);
-  score += Math.max(0, 1.1 - Math.abs(sum(c) - s.avgSum) / 75);
-  const z = zoneCount(c);
-  if (Math.min(...z) >= 1) score += 0.55;
-  let consecutive = 0;
-  for (let i=1;i<c.length;i++) if (c[i] === c[i-1]+1) consecutive++;
-  score -= Math.max(0, consecutive-2) * 0.45;
-  const span = c[c.length-1] - c[0];
-  if (span < mainMax()*0.45) score -= 0.55;
-  return score;
-}
-function generateCandidates(count=6) {
-  const s = stats();
-  const rng = makeRng(seedBase + (isDLT() ? 7919 : 3571));
-  const total = 6500;
-  const best = [];
-  for (let i=0;i<total;i++) {
-    const c = randomCombo(mainMax(), mainPick(), rng);
-    let score = comboScore(c, s);
-    const b = randomCombo(backMax(), backPick(), rng);
-    score += b.reduce((v,n) => v + Math.min((s.bf[n]||0)/8, 1) * 0.18, 0);
-    best.push({ c, b, score });
-  }
-  best.sort((a,b)=>b.score-a.score);
-  const out=[];
-  for (const x of best) {
-    if (out.every(y => x.c.filter(n=>y.c.includes(n)).length <= (isDLT()?3:4))) out.push(x);
-    if (out.length >= count) break;
-  }
-  return out;
-}
-
-function metric(label, value, sub='') {
-  return `<div class="metric"><span>${label}</span><strong>${value}</strong>${sub ? `<small>${sub}</small>` : ''}</div>`;
-}
-function statCard(title, body, cls='') { return `<section class="card ${cls}"><h2>${title}</h2>${body}</section>`; }
-
-function baseRender() {
-  if (!rows.length) {
-    $('#app').innerHTML = `<section class="card error"><h2>暂时没有开奖数据</h2><p>请点击“刷新数据”重试。</p></section>`;
-    return;
-  }
-  const s = stats();
-  const latest = rows[0];
-  const main = mainNums(latest), back = backNums(latest);
-  const sumNow = sum(main);
-  const zone = zoneCount(main);
-  const name = isDLT() ? '超级大乐透' : '双色球';
-  $('#app').innerHTML = `
-    <section class="hero-card">
-      <div class="hero-top">
-        <div><div class="eyebrow">${isDLT()?'大乐透':'双色球'} · LIVE DATA</div><h1>${name}</h1><p>第 ${esc(latest.issue)} 期 · ${esc(latest.date)}</p></div>
-        <div class="status"><i></i> 数据正常</div>
-      </div>
-      <div class="draw-label">最新开奖号码</div>
-      <div class="balls big">${balls(main)}<span class="divider">+</span>${balls(back,'blue')}</div>
-      <div class="hero-metrics">
-        <div><span>主区和值</span><b>${sumNow}</b></div>
-        <div><span>奇偶</span><b>${main.filter(n=>n%2).length}:${main.filter(n=>n%2===0).length}</b></div>
-        <div><span>三区</span><b>${zone.join(' · ')}</b></div>
-        <div><span>样本</span><b>${Math.min(rows.length,100)}期</b></div>
-      </div>
-    </section>
-    <div class="section-title"><div><b>数据画像</b><span>近100期统计</span></div></div>
-    <div class="grid two">
-      ${statCard('🔥 热号', `<div class="chips">${chips(s.hot)}</div><p class="hint">出现次数较高，不代表下一期更容易开出。</p>`)}
-      ${statCard('❄️ 冷号', `<div class="chips">${chips(s.cold)}</div><p class="hint">历史频率较低，仅作为组合分的一项参考。</p>`)}
-      ${statCard('⏳ 高遗漏', `<div class="chips">${chips(s.miss)}</div><p class="hint">按当前遗漏期数排序，避免把“久未开”理解成必开。</p>`)}
-      ${statCard('📐 区间画像', `${metric('平均和值', s.avgSum.toFixed(1))}${metric('平均奇数', s.avgOdd.toFixed(2))}${metric('最近和值', sumNow)}`)}
-    </div>
-    <section class="card recommendation">
-      <div class="section-head"><div><h2>🎯 今日候选组合</h2><p>统计评分 + 组合约束 · 同一期刷新保持稳定</p></div><button id="reroll">换一组</button></div>
-      <div id="candidateBox"><div class="loading">正在计算候选组合…</div></div>
-    </section>
-    <div class="grid two">
-      ${statCard('📋 最近10期', `<div class="recent">${rows.slice(0,10).map((r,i)=>`<div class="recent-row"><span>#${esc(r.issue)}</span><div>${balls(mainNums(r),'mini')}${balls(backNums(r),'blue mini')}</div><em>${esc(r.date)}</em></div>`).join('')}</div>`, 'wide')}
-      ${statCard('🧠 评分逻辑', `<div class="logic">${metric('频率偏离', '30%', '避免只追极热号码')}${metric('和值 / 奇偶', '30%', '贴近历史分布中心')}${metric('遗漏', '10%', '仅作弱权重')}${metric('三区 / 连号', '20%', '控制结构')}${metric('组合去重', '10%', '减少相似组合')}</div>`)}
-      ${statCard('🔬 研究状态', `<div class="research"><span class="ok">● 数据同步</span><span class="ok">● 近100期统计</span><span class="ok">● 候选组合</span><span class="wait">● Walk-forward 回测</span></div><p class="hint">下一阶段可以加入逐期预测台账、命中统计和滚动回测曲线。</p>`)}
-    </div>
-    <section class="card notice"><b>重要说明</b><p>彩票开奖结果具有独立随机性。本站的评分、热冷号、遗漏和候选组合仅用于数据研究与娱乐，不是中奖概率，也不能保证预测下一期。正式开奖信息请以官方渠道为准。</p></section>`;
-  renderCandidates();
-}
-
-function renderCandidates() {
-  const box = $('#candidateBox');
-  if (!box) return;
-  const picks = generateCandidates(6);
-  box.innerHTML = picks.map((x,i)=>`<div class="candidate ${i===0?'featured':''}">
-    <div class="rank">${i+1}</div>
-    <div class="candidate-main"><div class="balls">${balls(x.c)}<span class="divider">+</span>${balls(x.b,'blue')}</div><div class="score">组合评分 <b>${x.score.toFixed(2)}</b></div></div>
-    ${i===0?'<span class="tag">综合优先</span>':''}
-  </div>`).join('');
-  $('#reroll')?.addEventListener('click', () => { seedBase += 97; renderCandidates(); });
-}
-
-async function load() {
-  $('#app').innerHTML = `<section class="card loading"><div class="spinner"></div><h2>正在同步 ${isDLT()?'大乐透':'双色球'} 数据</h2><p>正在读取最近开奖记录，请稍候…</p></section>`;
-  try {
-    const res = await fetch(`${DATA[game]}?v=${Date.now()}`, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    if (!Array.isArray(data) || !data.length) throw new Error('数据格式为空');
-    rows = data.filter(r => Array.isArray(isDLT()?r.front:r.red) && Array.isArray(isDLT()?r.back:r.blue));
-    if (!rows.length) throw new Error('没有有效开奖记录');
-    seedBase = Number(String(rows[0].issue).replace(/\D/g,'')) || 1;
-    baseRender();
-  } catch (e) {
-    console.error(e);
-    $('#app').innerHTML = `<section class="card error"><div class="error-icon">!</div><h2>数据加载失败</h2><p>请检查网络后点击右上角“刷新数据”。</p><small>${esc(e.message)}</small></section>`;
-  }
-}
-
-document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => {
-  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
-  btn.classList.add('active');
-  game = btn.dataset.game;
-  load();
-}));
-$('#refresh').addEventListener('click', load);
-load();
+function setPage(p){page=p;$$('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.page===page));league='all';if(page==='lottery'){loadLottery()}else{sport=page;loadSports()}}
+$$('.nav-btn').forEach(b=>b.onclick=()=>setPage(b.dataset.page));$('#refresh').onclick=()=>page==='lottery'?loadLottery():loadSports();loadLottery();
