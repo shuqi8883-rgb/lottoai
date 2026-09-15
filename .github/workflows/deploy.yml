@@ -1,4 +1,4 @@
-name: Update data and deploy LottoAI
+name: LottoAI daily data and Pages deploy
 
 on:
   push:
@@ -13,35 +13,54 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "lottoai-pages"
   cancel-in-progress: true
 
 jobs:
-  update:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Download latest public draw data
         run: |
+          set -e
           mkdir -p docs/data
-          curl -L --fail -o docs/data/ssq.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/ssq.json
-          curl -L --fail -o docs/data/dlt.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/dlt.json
-      - name: Commit updated data
+          curl -L --fail --retry 3 -o docs/data/ssq.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/ssq.json
+          curl -L --fail --retry 3 -o docs/data/dlt.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/dlt.json
+          python - <<'PY'
+          import json
+          for p in ('docs/data/ssq.json','docs/data/dlt.json'):
+              with open(p, encoding='utf-8') as f: data=json.load(f)
+              assert isinstance(data,list) and data, p
+              print(p, 'records:', len(data), 'latest:', data[0].get('issue'))
+          PY
+
+      - name: Save updated data to repository
         run: |
           git config user.name "lottoai-bot"
           git config user.email "actions@github.com"
           git add docs/data
-          git diff --cached --quiet || git commit -m "chore: update lottery data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: update lottery data"
+            git push
+          fi
 
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - id: deployment
+
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
