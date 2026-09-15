@@ -1,10 +1,10 @@
-name: LottoAI daily data and Pages deploy
+name: LottoAI data sync and Pages deploy
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -41,18 +41,18 @@ jobs:
               print(p, 'records:', len(data), 'latest:', data[0].get('issue'))
           PY
 
-      - name: Download football and basketball data
+      - name: Sync football and basketball fixtures/results
         run: python scripts/update_sports.py
 
-      - name: Save updated lottery data to repository
+      - name: Save synchronized data
         run: |
           git config user.name "lottoai-bot"
           git config user.email "actions@github.com"
-          git add docs/data/ssq.json docs/data/dlt.json
+          git add docs/data/ssq.json docs/data/dlt.json docs/data/sports_predictions.json
           if git diff --cached --quiet; then
-            echo "No lottery data changes."
+            echo "No repository data changes."
           else
-            git commit -m "chore: update lottery data"
+            git commit -m "chore: sync lottery and sports predictions [skip ci]"
             git push
           fi
 
