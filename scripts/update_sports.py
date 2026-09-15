@@ -15,16 +15,32 @@ TODAY = NOW.date()
 START = TODAY - timedelta(days=45)
 END = TODAY + timedelta(days=3)
 
+# 覆盖主流欧洲联赛、欧战和北美重点赛事；数据源使用 ESPN 公开 scoreboard。
 SOCCER = {
-    'eng.1': '英超', 'esp.1': '西甲', 'ita.1': '意甲', 'ger.1': '德甲', 'fra.1': '法甲', 'uefa.champions': '欧冠',
+    'eng.1': '英超',
+    'eng.2': '英冠',
+    'esp.1': '西甲',
+    'ita.1': '意甲',
+    'ger.1': '德甲',
+    'fra.1': '法甲',
+    'ned.1': '荷甲',
+    'por.1': '葡超',
+    'sco.1': '苏超',
+    'usa.1': '美职联',
+    'mex.1': '墨西哥联赛',
+    'bra.1': '巴西甲',
+    'uefa.champions': '欧冠',
+    'uefa.europa': '欧联杯',
+    'uefa.europa.conf': '欧协联',
 }
 BASKETBALL = {
-    'nba': 'NBA', 'wnba': 'WNBA', 'mens-college-basketball': 'NCAA篮球',
+    'nba': 'NBA',
+    'wnba': 'WNBA',
 }
 
 
 def get_json(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'LottoAI/1.2'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'LottoAI/1.3'})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
@@ -190,6 +206,7 @@ def main():
             avgh, avga = league_average(games)
             for g in games:
                 key = str(g['id'])
+                # 只在首次发现赛程时生成预测，避免比赛开始后预测数字漂移。
                 if g['status'] == 'scheduled':
                     if key not in predictions:
                         predictions[key] = predict_soccer(g, stats, avgh, avga) if sport_name == 'soccer' else predict_basketball(g, stats, avgh, avga)
@@ -203,9 +220,17 @@ def main():
                 all_games.append(g)
             leagues.append({'sport': sport_name, 'id': league, 'name': name})
 
-    # Keep the archive bounded while retaining recent predictions for result evaluation.
     cutoff = NOW - timedelta(days=120)
-    predictions = {k: v for k, v in predictions.items() if v.get('createdAt') and datetime.fromisoformat(v['createdAt']).astimezone(TZ) >= cutoff}
+    kept = {}
+    for k, v in predictions.items():
+        try:
+            created = datetime.fromisoformat(v['createdAt']).astimezone(TZ)
+            if created >= cutoff:
+                kept[k] = v
+        except Exception:
+            continue
+    predictions = kept
+
     archive_payload = {'updatedAt': NOW.isoformat(), 'predictions': predictions}
     os.makedirs(os.path.dirname(ARCHIVE), exist_ok=True)
     with open(ARCHIVE, 'w', encoding='utf-8') as f:
@@ -220,11 +245,13 @@ def main():
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, separators=(',', ':'))
 
-    today_games = [g for g in all_games if g['dateLocal'].startswith(str(TODAY))]
-    print('sports games:', len(all_games), 'today:', len(today_games),
-          'scheduled:', sum(g['status'] == 'scheduled' for g in today_games),
-          'live:', sum(g['status'] == 'live' for g in today_games),
-          'finished:', sum(g['status'] == 'finished' for g in today_games),
+    window_start = NOW - timedelta(hours=24)
+    window_end = NOW + timedelta(hours=48)
+    window_games = [g for g in all_games if window_start <= datetime.fromisoformat(g['date']) <= window_end]
+    print('sports games:', len(all_games), 'window:', len(window_games),
+          'scheduled:', sum(g['status'] == 'scheduled' for g in window_games),
+          'live:', sum(g['status'] == 'live' for g in window_games),
+          'finished:', sum(g['status'] == 'finished' for g in window_games),
           'archived predictions:', len(predictions))
 
 
