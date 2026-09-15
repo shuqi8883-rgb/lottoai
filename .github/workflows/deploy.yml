@@ -1,0 +1,47 @@
+name: Update data and deploy LottoAI
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "10 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download latest public draw data
+        run: |
+          mkdir -p docs/data
+          curl -L --fail -o docs/data/ssq.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/ssq.json
+          curl -L --fail -o docs/data/dlt.json https://raw.githubusercontent.com/yangxb919/lottery-data/main/data/dlt.json
+      - name: Commit updated data
+        run: |
+          git config user.name "lottoai-bot"
+          git config user.email "actions@github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "chore: update lottery data"
+          git push
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
