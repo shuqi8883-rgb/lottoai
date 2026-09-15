@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "10 14 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download latest public draw data
+      - name: Download latest lottery data
         run: |
           set -e
           mkdir -p docs/data
@@ -41,13 +41,16 @@ jobs:
               print(p, 'records:', len(data), 'latest:', data[0].get('issue'))
           PY
 
-      - name: Save updated data to repository
+      - name: Download football and basketball data
+        run: python scripts/update_sports.py
+
+      - name: Save updated lottery data to repository
         run: |
           git config user.name "lottoai-bot"
           git config user.email "actions@github.com"
-          git add docs/data
+          git add docs/data/ssq.json docs/data/dlt.json
           if git diff --cached --quiet; then
-            echo "No data changes."
+            echo "No lottery data changes."
           else
             git commit -m "chore: update lottery data"
             git push
