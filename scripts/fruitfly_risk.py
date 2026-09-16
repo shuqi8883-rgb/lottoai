@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Conservative risk gate for FruitFly signals.
 
-The gate can reject a signal. It does not select a replacement trade.
+The gate can reject a signal. It never selects a replacement trade.
 """
 from __future__ import annotations
 
@@ -18,10 +18,11 @@ class RiskLimits:
 
 def gate(signal: dict, daily_pnl_pct: float = 0.0, drawdown_pct: float = 0.0,
          consecutive_losses: int = 0, limits: RiskLimits = RiskLimits()) -> dict:
+    original = signal.get("signal", "HOLD")
     reasons = []
-    if signal.get("signal") not in {"BUY", "SELL", "HOLD"}:
+    if original not in {"BUY", "SELL", "HOLD"}:
         reasons.append("invalid_signal")
-    if signal.get("signal") != "HOLD" and float(signal.get("strength", 0)) < limits.min_strength:
+    if original != "HOLD" and float(signal.get("strength", 0)) < limits.min_strength:
         reasons.append("weak_signal")
     if daily_pnl_pct <= -limits.max_daily_loss_pct:
         reasons.append("daily_loss_limit")
@@ -33,7 +34,7 @@ def gate(signal: dict, daily_pnl_pct: float = 0.0, drawdown_pct: float = 0.0,
         reasons.append("high_volatility")
     return {
         "accepted": not reasons,
-        "signal": signal.get("signal", "HOLD") if not reasons else "HOLD",
+        "signal": original,
         "reasons": reasons,
         "max_position_pct": limits.max_position_pct,
         "execution": "NO_ORDERS",
