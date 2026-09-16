@@ -13,19 +13,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate read-only signal
+      - name: Generate read-only signal snapshot
         working-directory: scripts
         run: python fruitfly_live.py
-      - name: Send optional Telegram notification
-        working-directory: scripts
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python fruitfly_notify.py
-      - name: Commit signal snapshot and notification state
+      - name: Commit signal snapshot
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/flytrade/signal.json docs/flytrade/notify-state.json
+          git add docs/flytrade/signal.json
           git diff --cached --quiet || git commit -m 'chore: update FruitFly live signal'
           git push
