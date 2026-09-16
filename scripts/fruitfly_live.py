@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 """Read-only FruitFly signal engine for live OKX public market data.
 
-This module never places orders. It converts recent public candles into the
-existing FruitFly V1 signal and writes a small JSON snapshot for a dashboard
-or notification worker.
+This module never places orders. It converts recent confirmed public candles
+into the existing FruitFly V1 signal and writes a JSON snapshot.
 """
 from __future__ import annotations
 
 import json
-import math
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 from fruitfly_brain import FruitFlyBrain, features_from_prices
+from fruitfly_risk import gate
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "flytrade" / "signal.json"
@@ -29,6 +28,8 @@ def fetch(inst_id: str = "BTC-USDT", bar: str = "5m", limit: int = 120) -> list[
         raise RuntimeError(payload)
     rows = []
     for row in reversed(payload.get("data", [])):
+        if len(row) >= 9 and row[8] != "1":
+            continue
         rows.append({
             "timestamp": int(row[0]),
             "open": float(row[1]), "high": float(row[2]),
@@ -36,7 +37,7 @@ def fetch(inst_id: str = "BTC-USDT", bar: str = "5m", limit: int = 120) -> list[
             "volume": float(row[5]),
         })
     if len(rows) < 10:
-        raise RuntimeError("not enough market candles")
+        raise RuntimeError("not enough confirmed market candles")
     return rows
 
 
@@ -54,10 +55,8 @@ def build_signal(rows: list[dict], symbol: str, timeframe: str) -> dict:
     price = prices[-1]
     prev = prices[-2]
     ret_pct = (price / prev - 1.0) * 100 if prev else 0.0
-    risk = "NORMAL"
-    if abs(ret_pct) >= 1.0:
-        risk = "HIGH_VOLATILITY"
-    return {
+    risk = "HIGH_VOLATILITY" if abs(ret_pct) >= 1.0 else "NORMAL"
+    raw = {
         "mode": "live-read-only",
         "symbol": symbol,
         "timeframe": timeframe,
@@ -71,8 +70,12 @@ def build_signal(rows: list[dict], symbol: str, timeframe: str) -> dict:
         "spikes": spikes,
         "engine": "FruitFly V1",
         "execution": "NO_ORDERS",
-        "disclaimer": "Live public market signal for research only; not investment advice and not a profitability guarantee.",
     }
+    risk_gate = gate(raw)
+    raw["risk_gate"] = risk_gate
+    raw["signal_actionable"] = bool(risk_gate["accepted"] and action in {"BUY", "SELL"})
+    raw["disclaimer"] = "Live public market signal for research only; not investment advice and not a profitability guarantee."
+    return raw
 
 
 def main() -> None:
