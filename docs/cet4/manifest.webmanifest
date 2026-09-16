@@ -1,0 +1,12 @@
+{
+  "name":"CET-4 过级舱",
+  "short_name":"CET-4过级舱",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#06101d",
+  "theme_color":"#07111f",
+  "description":"30天大学英语四级冲刺学习站",
+  "lang":"zh-CN",
+  "icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
