@@ -7,7 +7,6 @@ harness, not a profitability claim.
 from __future__ import annotations
 
 import json
-import math
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -29,6 +28,8 @@ def fetch(inst_id="BTC-USDT", bar="5m", limit=300):
     rows = []
     for row in reversed(payload.get("data", [])):
         # OKX: ts, open, high, low, close, vol, volCcy, volCcyQuote, confirm
+        if len(row) >= 9 and row[8] != "1":
+            continue
         rows.append({
             "timestamp": int(row[0]),
             "open": float(row[1]), "high": float(row[2]),
@@ -42,23 +43,11 @@ def main():
     inst = "BTC-USDT"
     bar = "5m"
     candles = fetch(inst, bar)
-    prices = [x["close"] for x in candles]
-    rows = []
-    for i, c in enumerate(candles):
-        prev = prices[max(0, i-1)]
-        r = (c["close"] / prev - 1.0) if prev else 0.0
-        window = prices[max(0, i-12):i+1]
-        mom = (c["close"] / window[0] - 1.0) if window and window[0] else 0.0
-        if len(window) > 1:
-            rets = [window[j] / window[j-1] - 1.0 for j in range(1, len(window))]
-            vol = math.sqrt(sum(x*x for x in rets) / len(rets))
-        else:
-            vol = 0.0
-        avg_vol = sum(x["volume"] for x in candles[max(0, i-12):i+1]) / max(1, len(candles[max(0, i-12):i+1]))
-        impulse = c["volume"] / avg_vol - 1.0 if avg_vol else 0.0
-        rows.append({"return": r, "momentum": mom, "volatility": vol, "volume_impulse": impulse, "price": c["close"]})
+    if len(candles) < 10:
+        raise RuntimeError("not enough confirmed market candles")
 
-    result = backtest(rows, initial_cash=1000.0, fee_rate=0.001, slippage_rate=0.0005)
+    result = backtest(candles, initial=1000.0)
+    prices = [x["close"] for x in candles]
     buy_hold = (prices[-1] / prices[0] - 1.0) * 100 if prices else 0.0
     output = {
         "mode": "paper",
