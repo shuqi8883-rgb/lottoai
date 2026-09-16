@@ -1,0 +1,4 @@
+[
+  {"id":"demo-1","company":"企业官方岗位示例","title":"应届生招聘 / 校招岗位","location":"中国 / 多城市","level":"应届生","major":"管理学 教育学 文学 艺术学 工学","source":"公开招聘页","updated_at":"2026-09-16T00:00:00Z","url":"https://www.zhipin.com/school/","description":"这是平台的初始示例入口。后续每日自动任务会把企业公开招聘系统中的岗位更新到这里。"},
+  {"id":"demo-2","company":"企业官方岗位示例","title":"实习生 / 初级岗位","location":"Remote / 中国","level":"实习 初级","major":"计算机 工学 经济学 管理学","source":"公开招聘页","updated_at":"2026-09-16T00:00:00Z","url":"https://www.zhipin.com/school/","description":"支持按专业、地区、经验筛选；投递按钮始终尽量指向企业官方招聘页面。"}
+]
