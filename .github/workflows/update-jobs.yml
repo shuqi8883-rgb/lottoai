@@ -15,10 +15,12 @@ jobs:
           python-version: '3.12'
       - name: Fetch public jobs
         run: python scripts/update_jobs_daily.py
-      - name: Commit updated jobs
+      - name: Build compact browser index
+        run: python scripts/compact_jobs.py
+      - name: Commit updated job data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/jobs/data/jobs.json docs/jobs/data/update-meta.json
-          git diff --cached --quiet || git commit -m 'chore: daily update job listings'
+          git add docs/jobs/data/jobs.json docs/jobs/data/jobs-index.json docs/jobs/data/jobs-chunks docs/jobs/data/companies.json docs/jobs/data/update-meta.json
+          git diff --cached --quiet || git commit -m 'chore: daily update job listings and compact index'
           git push
