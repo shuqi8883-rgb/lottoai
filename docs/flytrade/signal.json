@@ -1,0 +1,160 @@
+{
+  "generated_at": "2026-09-16T07:53:54.641065+00:00",
+  "engine": "FruitFly V1",
+  "mode": "live-read-only",
+  "execution": "NO_ORDERS",
+  "assets": [
+    {
+      "id": "BTC-USDT",
+      "name": "Bitcoin",
+      "kind": "crypto",
+      "source": "OKX",
+      "timeframe": "5m",
+      "updated_at": "2026-09-16T07:53:53.070211+00:00",
+      "candle_timestamp": 1789544700000,
+      "price": 75874.3,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": 0.0601,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-09-16T07:53:53.469477+00:00",
+      "candle_timestamp": 1789502400000,
+      "price": 757.3900146484375,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.004,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "QQQ",
+      "name": "Invesco QQQ",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-09-16T07:53:53.863752+00:00",
+      "candle_timestamp": 1789502400000,
+      "price": 704.5399780273438,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0071,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-09-16T07:53:54.272128+00:00",
+      "candle_timestamp": 1789502400000,
+      "price": 696.2000122070312,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": 0.0,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-09-16T07:53:54.641006+00:00",
+      "candle_timestamp": 1789502400000,
+      "price": 285.1400146484375,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.007,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    }
+  ],
+  "errors": [],
+  "note": "BTC uses OKX public market data. ETF data uses Yahoo Finance public chart data and may be delayed/outside market hours."
+}
