@@ -1,82 +1,20 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FruitFly 实时买卖信号</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FruitFly 多资产买卖信号</title>
 <style>
-:root{color-scheme:dark}body{margin:0;background:#0b100d;color:#eef5ef;font:16px system-ui,-apple-system,sans-serif}main{max-width:760px;margin:auto;padding:22px 16px}.card{background:#151d17;border:1px solid #29352c;border-radius:22px;padding:22px;margin-bottom:14px}.eyebrow{color:#9baa9d;font-size:13px}.signal{font-size:58px;font-weight:900;margin:14px 0}.buy{color:#6ee7a0}.sell{color:#ff8b8b}.hold{color:#f0d37a}.offline{color:#aeb7b0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metric{background:#202a22;border-radius:15px;padding:14px}.metric span{display:block;color:#9eaaa1;font-size:13px}.metric b{display:block;font-size:21px;margin-top:5px}.tag{display:inline-block;padding:7px 10px;border-radius:999px;background:#263229}.ok{color:#75e6a1}.warn{color:#e6d8bc;line-height:1.55}.small{font-size:13px;color:#9eaaa1;line-height:1.5}@media(max-width:520px){.signal{font-size:46px}}
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#08100b;color:#eef5ef;font:15px system-ui,-apple-system,sans-serif}main{max-width:980px;margin:auto;padding:20px 14px 50px}.hero,.card{background:#121b15;border:1px solid #28372c;border-radius:22px;padding:20px;margin-bottom:14px}.hero h1{margin:4px 0 7px;font-size:27px}.muted{color:#9baa9d}.status{font-size:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.asset{background:#18231b;border:1px solid #2b3a2f;border-radius:18px;padding:17px}.top{display:flex;align-items:center;justify-content:space-between;gap:10px}.name{font-weight:800}.ticker{color:#9baa9d;font-size:12px;margin-top:3px}.signal{font-size:42px;font-weight:950;margin:15px 0 5px}.buy{color:#6ee7a0}.sell{color:#ff8989}.hold{color:#f0d37a}.offline{color:#9aa49d}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px}.metric{background:#202a22;border-radius:12px;padding:10px}.metric span{display:block;color:#9eaaa1;font-size:11px}.metric b{display:block;margin-top:4px;font-size:16px}.gate{font-size:11px;margin-top:10px}.accepted{color:#75e6a1}.rejected{color:#ffb07e}.tag{display:inline-block;padding:6px 9px;border-radius:999px;background:#263229;color:#d9e7dc;font-size:11px}.warn{color:#e5d8bc;line-height:1.55;font-size:13px}.small{font-size:12px;color:#9eaaa1;line-height:1.5}@media(max-width:650px){.grid{grid-template-columns:1fr}.signal{font-size:38px}}
 </style>
 </head>
-<body>
-<main>
-<section class="card">
-<div class="eyebrow">LottoAI · FruitFly V1 · OKX BTC-USDT · 5分钟</div>
-<h1>🪰 实时研究信号台</h1>
-<div id="signal" class="signal offline">正在读取行情…</div>
-<div id="meta" class="eyebrow">连接 OKX 公共行情接口</div>
-</section>
-<section class="card"><div class="grid">
-<div class="metric"><span>最新价格</span><b id="price">—</b></div>
-<div class="metric"><span>信号强度</span><b id="strength">—</b></div>
-<div class="metric"><span>最近一根K线</span><b id="ret">—</b></div>
-<div class="metric"><span>风险状态</span><b id="risk">—</b></div>
-<div class="metric"><span>风险闸门</span><b id="gate">—</b></div>
-<div class="metric"><span>更新时间</span><b id="updated">—</b></div>
-</div></section>
-<section class="card">
-<div class="tag">只读 · NO ORDERS</div>
-<p class="warn">网页会直接读取 OKX 公开行情并在浏览器里运行 FruitFly V1 研究回路。出现 <b>BUY</b> / <b>SELL</b> 只代表模型研究信号，不会自动下单，也不保证盈利。</p>
-<p class="small">如果页面显示 OFFLINE，请稍等几秒后刷新；如果 OKX 公共接口或网络被当前网络环境拦截，网页会显示离线状态。</p>
-</section>
+<body><main>
+<section class="hero"><div class="muted">LottoAI · FruitFly V1 · 多资产研究台</div><h1>🪰 BTC + ETF 买卖信号</h1><div id="status" class="status muted">正在读取最新模型快照…</div></section>
+<section id="assets" class="grid"><div class="card"><div class="muted">等待后台生成信号…</div></div></section>
+<section class="card"><div class="tag">只读模式 · NO ORDERS</div><p class="warn">BUY / SELL / HOLD 是模型研究信号，不会自动下单。BTC 使用 OKX 公开行情；ETF 使用 Yahoo Finance 公共图表数据，ETF 数据可能存在延迟或处于非交易时段。</p><p class="small">后台约每 5 分钟生成一次快照，网页每 30 秒检查一次。信号不代表收益保证或投资建议。</p></section>
 </main>
 <script>
-const API='https://www.okx.com/api/v5/market/candles?instId=BTC-USDT&bar=5m&limit=120';
-function rng(seed){return function(){seed|=0;seed=(seed+0x6D2B79F5)|0;let t=Math.imul(seed^(seed>>>15),1|seed);t=(t+Math.imul(t^(t>>>7),61|t))^t;return ((t^(t>>>14))>>>0)/4294967296}}
-function brain(rows){
-  const n=96,r=rng(42),w=Array.from({length:n},()=>Array(n).fill(0)),v=Array(n).fill(-52),prev=Array(n).fill(0);
-  for(let i=0;i<n;i++)for(let k=0;k<5;k++){const j=Math.floor(r()*n);w[i][j]=-.22+r*.52}
-  let last={buy_spikes:0,sell_spikes:0,hold_spikes:0},action='HOLD';
-  const prices=rows.map(x=>x.close),volumes=rows.map(x=>x.volume);
-  for(let i=6;i<rows.length;i++){
-    const p=prices[i],ret=Math.log(p/prices[i-1]),look=prices.slice(Math.max(0,i-5),i+1),mom=p/look[0]-1;
-    const rets=[];for(let k=1;k<look.length;k++)if(look[k-1]>0)rets.push(Math.log(look[k]/look[k-1]));
-    const vol=rets.length?Math.sqrt(rets.reduce((a,x)=>a+x*x,0)/rets.length):0;
-    const vv=volumes.slice(Math.max(0,i-5),i+1),base=vv.reduce((a,x)=>a+x,0)/Math.max(1,vv.length),vi=base?volumes[i]/base-1:0;
-    const f=[ret*100,mom*100,vol*100,vi*100].map(x=>Math.max(-3,Math.min(3,x)));
-    const spikes=Array(n).fill(0);
-    for(let a=0;a<n;a++){
-      const inp=f[a%4]*(3+(a%7)*.25);let rec=0;for(let b=0;b<n;b++)rec+=w[a][b]*prev[b];
-      v[a]+=-(v[a]+52)/20+inp+rec;if(v[a]>=-45){spikes[a]=1;v[a]=-52}
-    }
-    const buy=spikes.filter((_,x)=>x%3===0).reduce((a,_,x)=>a+spikes[x*3],0);
-    const sell=spikes.filter((_,x)=>x%3===1).reduce((a,_,x)=>a+spikes[x*3+1],0);
-    const hold=spikes.filter((_,x)=>x%3===2).reduce((a,_,x)=>a+spikes[x*3+2],0);
-    action=buy>sell*1.15&&buy>hold?'BUY':sell>buy*1.15&&sell>hold?'SELL':'HOLD';
-    last={buy_spikes:buy,sell_spikes:sell,hold_spikes:hold};prev.splice(0,n,...spikes);
-  }
-  const total=Math.max(1,last.buy_spikes+last.sell_spikes+last.hold_spikes),strength=Math.min(1,Math.abs(last.buy_spikes-last.sell_spikes)/total);
-  return {action,strength,spikes:last};
-}
-async function load(){
- try{
-  const res=await fetch(API+'&t='+Date.now(),{cache:'no-store'}),json=await res.json();
-  if(json.code!=='0')throw new Error(json.msg||'OKX error');
-  const rows=json.data.slice().reverse().filter(x=>x.length>=9&&x[8]==='1').map(x=>({timestamp:+x[0],close:+x[4],volume:+x[5]}));
-  if(rows.length<10)throw new Error('confirmed candles unavailable');
-  const out=brain(rows),p=rows.at(-1).close,prev=rows.at(-2).close,ret=(p/prev-1)*100,risk=Math.abs(ret)>=1?'HIGH_VOLATILITY':'NORMAL';
-  const accepted=out.action==='HOLD'||(out.strength>=.15&&risk!=='HIGH_VOLATILITY');
-  const s=out.action,el=document.getElementById('signal');el.textContent=s;el.className='signal '+s.toLowerCase();
-  document.getElementById('meta').textContent='BTC-USDT · 5m · 已确认K线 · OKX公开行情';
-  document.getElementById('price').textContent=p.toLocaleString(undefined,{maximumFractionDigits:2});
-  document.getElementById('strength').textContent=(out.strength*100).toFixed(1)+'%';
-  document.getElementById('ret').textContent=ret.toFixed(3)+'%';
-  document.getElementById('risk').textContent=risk;
-  document.getElementById('gate').textContent=accepted?'ACCEPTED':'REJECTED';
-  document.getElementById('gate').className=accepted?'ok':'';
-  document.getElementById('updated').textContent=new Date(rows.at(-1).timestamp).toLocaleTimeString();
- }catch(e){document.getElementById('signal').textContent='OFFLINE';document.getElementById('signal').className='signal offline';document.getElementById('meta').textContent='暂时无法读取 OKX 公共行情：'+e.message}
-}
+function esc(x){return String(x??'').replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[m]))}
+function card(a){const s=a.signal||'HOLD',cls=s.toLowerCase();const gate=a.risk_gate||{};return `<article class="asset"><div class="top"><div><div class="name">${esc(a.name)}</div><div class="ticker">${esc(a.id)} · ${esc(a.source)}</div></div><div class="tag">${esc(a.timeframe)}</div></div><div class="signal ${cls}">${esc(s)}</div><div class="metrics"><div class="metric"><span>价格</span><b>${Number(a.price).toLocaleString(undefined,{maximumFractionDigits:4})}</b></div><div class="metric"><span>强度</span><b>${(Number(a.strength)*100).toFixed(1)}%</b></div><div class="metric"><span>1根K线</span><b>${Number(a.return_1_candle_pct).toFixed(3)}%</b></div><div class="metric"><span>风险</span><b>${esc(a.risk)}</b></div></div><div class="gate ${gate.accepted?'accepted':'rejected'}">风险闸门：${gate.accepted?'ACCEPTED':'REJECTED'}${gate.reasons?.length?' · '+esc(gate.reasons.join(', ')):''}</div></article>`}
+async function load(){try{const r=await fetch('./signal.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('signal.json 尚未生成');const d=await r.json();document.getElementById('status').textContent=`最新快照：${new Date(d.generated_at).toLocaleString()} · ${d.assets.length} 个资产`;document.getElementById('assets').innerHTML=d.assets.map(card).join('')||'<div class="card">暂无有效信号</div>';if(d.errors?.length)document.getElementById('status').textContent+=` · ${d.errors.length} 个资产数据暂不可用`;}catch(e){document.getElementById('status').textContent='后台信号快照暂不可用：'+e.message;document.getElementById('assets').innerHTML='<div class="card"><b>等待首次后台运行</b><p class="muted">GitHub Actions 需要先运行一次生成 signal.json。</p></div>'}}
 load();setInterval(load,30000);
-</script>
-</body></html>
+</script></body></html>
