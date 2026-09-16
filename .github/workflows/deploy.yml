@@ -3,8 +3,9 @@ name: LottoAI data sync and Pages deploy
 on:
   push:
     branches: [main]
+  # 每小时同步一次，覆盖赛前预测、进行中比分和赛后结果结算。
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -55,10 +56,7 @@ jobs:
           s = p.read_text(encoding='utf-8')
           tag = '<script src="sports-fix.js?v=20260915-1"></script>'
           if tag not in s:
-              if '</body>' in s:
-                  s = s.replace('</body>', tag + '</body>')
-              else:
-                  s += tag
+              s = s.replace('</body>', tag + '</body>') if '</body>' in s else s + tag
               p.write_text(s, encoding='utf-8')
           print('sports display fix activated')
           PY
