@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:06:00.678190+00:00",
+  "generated_at": "2026-10-01T19:27:38.963483+00:00",
   "engine": "FruitFly V1",
   "mode": "live-read-only",
   "execution": "NO_ORDERS",
@@ -10,13 +10,133 @@
       "kind": "crypto",
       "source": "OKX",
       "timeframe": "5m",
-      "updated_at": "2026-10-01T19:06:00.288276+00:00",
-      "candle_timestamp": 1790881200000,
-      "price": 84800.1,
+      "updated_at": "2026-10-01T19:27:37.363366+00:00",
+      "candle_timestamp": 1790882400000,
+      "price": 84619.6,
       "signal": "HOLD",
       "strength": 0.0,
       "risk": "NORMAL",
-      "return_1_candle_pct": -0.0058,
+      "return_1_candle_pct": -0.208,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-10-01T19:27:37.776993+00:00",
+      "candle_timestamp": 1790882854000,
+      "price": 764.2999877929688,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0157,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "QQQ",
+      "name": "Invesco QQQ",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-10-01T19:27:38.180285+00:00",
+      "candle_timestamp": 1790882855000,
+      "price": 742.64501953125,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0229,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-10-01T19:27:38.590931+00:00",
+      "candle_timestamp": 1790882857000,
+      "price": 702.4971923828125,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0203,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-10-01T19:27:38.963411+00:00",
+      "candle_timestamp": 1790882858000,
+      "price": 279.21990966796875,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0284,
       "spikes": {
         "buy_spikes": 0,
         "sell_spikes": 0,
@@ -35,27 +155,6 @@
       "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
     }
   ],
-  "errors": [
-    {
-      "id": "SPY",
-      "name": "SPDR S&P 500 ETF",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "QQQ",
-      "name": "Invesco QQQ",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "VOO",
-      "name": "Vanguard S&P 500 ETF",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "error": "HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "note": "BTC uses OKX public market data. ETF data uses Yahoo Finance public chart data and may be delayed/outside market hours."
 }
