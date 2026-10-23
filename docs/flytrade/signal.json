@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:00:23.537163+00:00",
+  "generated_at": "2026-10-23T05:58:32.509821+00:00",
   "engine": "FruitFly V1",
   "mode": "live-read-only",
   "execution": "NO_ORDERS",
@@ -10,13 +10,43 @@
       "kind": "crypto",
       "source": "OKX",
       "timeframe": "5m",
-      "updated_at": "2026-10-23T01:00:22.475456+00:00",
-      "candle_timestamp": 1792716900000,
-      "price": 81460.0,
+      "updated_at": "2026-10-23T05:58:30.869042+00:00",
+      "candle_timestamp": 1792734600000,
+      "price": 81889.8,
       "signal": "HOLD",
       "strength": 0.0,
       "risk": "NORMAL",
-      "return_1_candle_pct": -0.0835,
+      "return_1_candle_pct": 0.0528,
+      "spikes": {
+        "buy_spikes": 0,
+        "sell_spikes": 0,
+        "hold_spikes": 0
+      },
+      "engine": "FruitFly V1",
+      "execution": "NO_ORDERS",
+      "risk_gate": {
+        "accepted": true,
+        "signal": "HOLD",
+        "reasons": [],
+        "max_position_pct": 25.0,
+        "execution": "NO_ORDERS"
+      },
+      "signal_actionable": false,
+      "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
+    },
+    {
+      "id": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "kind": "etf",
+      "source": "Yahoo Finance",
+      "timeframe": "5m",
+      "updated_at": "2026-10-23T05:58:31.356321+00:00",
+      "candle_timestamp": 1792699200000,
+      "price": 763.9600219726562,
+      "signal": "HOLD",
+      "strength": 0.0,
+      "risk": "NORMAL",
+      "return_1_candle_pct": -0.0026,
       "spikes": {
         "buy_spikes": 0,
         "sell_spikes": 0,
@@ -40,7 +70,7 @@
       "kind": "etf",
       "source": "Yahoo Finance",
       "timeframe": "5m",
-      "updated_at": "2026-10-23T01:00:22.854952+00:00",
+      "updated_at": "2026-10-23T05:58:31.741589+00:00",
       "candle_timestamp": 1792699200000,
       "price": 704.469970703125,
       "signal": "HOLD",
@@ -70,7 +100,7 @@
       "kind": "etf",
       "source": "Yahoo Finance",
       "timeframe": "5m",
-      "updated_at": "2026-10-23T01:00:23.192962+00:00",
+      "updated_at": "2026-10-23T05:58:32.106570+00:00",
       "candle_timestamp": 1792699200000,
       "price": 702.2999877929688,
       "signal": "HOLD",
@@ -100,7 +130,7 @@
       "kind": "etf",
       "source": "Yahoo Finance",
       "timeframe": "5m",
-      "updated_at": "2026-10-23T01:00:23.537098+00:00",
+      "updated_at": "2026-10-23T05:58:32.509744+00:00",
       "candle_timestamp": 1792699200000,
       "price": 276.6700134277344,
       "signal": "HOLD",
@@ -125,12 +155,6 @@
       "disclaimer": "Research signal only; no automatic orders and no profitability guarantee."
     }
   ],
-  "errors": [
-    {
-      "id": "SPY",
-      "name": "SPDR S&P 500 ETF",
-      "error": "HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "note": "BTC uses OKX public market data. ETF data uses Yahoo Finance public chart data and may be delayed/outside market hours."
 }
