@@ -8703,16 +8703,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-durable",
-    "name": "Durable",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/durable",
-    "ats": "greenhouse",
-    "board": "durable",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-dvtrading",
     "name": "DV Trading",
     "category": "公开招聘企业",
@@ -43643,16 +43633,6 @@
     "discovered": true
   },
   {
-    "id": "lever-jobgether",
-    "name": "Jobgether",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/jobgether",
-    "ats": "lever",
-    "board": "jobgether",
-    "discovered": true
-  },
-  {
     "id": "lever-jobscan-2",
     "name": "Jobscan 2",
     "category": "公开招聘企业",
@@ -44933,16 +44913,6 @@
     "discovered": true
   },
   {
-    "id": "lever-nextech",
-    "name": "Nextech",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/nextech",
-    "ats": "lever",
-    "board": "nextech",
-    "discovered": true
-  },
-  {
     "id": "lever-nfq",
     "name": "Nfq",
     "category": "公开招聘企业",
@@ -45160,16 +45130,6 @@
     "official": "https://jobs.lever.co/omnidian",
     "ats": "lever",
     "board": "omnidian",
-    "discovered": true
-  },
-  {
-    "id": "lever-onceuponafarm",
-    "name": "Onceuponafarm",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/onceuponafarm",
-    "ats": "lever",
-    "board": "onceuponafarm",
     "discovered": true
   },
   {
@@ -59640,6 +59600,46 @@
     "official": "https://boards.greenhouse.io/qualifieddigital",
     "ats": "greenhouse",
     "board": "qualifieddigital",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-watershed",
+    "name": "Watershed",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/watershed",
+    "ats": "greenhouse",
+    "board": "watershed",
+    "discovered": true
+  },
+  {
+    "id": "lever-zeeco",
+    "name": "Zeeco",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/zeeco",
+    "ats": "lever",
+    "board": "zeeco",
+    "discovered": true
+  },
+  {
+    "id": "lever-zeta",
+    "name": "Zeta",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/zeta",
+    "ats": "lever",
+    "board": "zeta",
+    "discovered": true
+  },
+  {
+    "id": "lever-zopa",
+    "name": "Zopa",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/zopa",
+    "ats": "lever",
+    "board": "zopa",
     "discovered": true
   }
 ]
