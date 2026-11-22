@@ -59623,13 +59623,63 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-watershed",
-    "name": "Watershed",
+    "id": "lever-aquabyte",
+    "name": "Aquabyte",
     "category": "公开招聘企业",
     "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/watershed",
-    "ats": "greenhouse",
-    "board": "watershed",
+    "official": "https://jobs.lever.co/aquabyte",
+    "ats": "lever",
+    "board": "aquabyte",
+    "discovered": true
+  },
+  {
+    "id": "lever-arsiem",
+    "name": "Arsiem",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/arsiem",
+    "ats": "lever",
+    "board": "arsiem",
+    "discovered": true
+  },
+  {
+    "id": "lever-bhg-inc",
+    "name": "Bhg Inc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/bhg-inc",
+    "ats": "lever",
+    "board": "bhg-inc",
+    "discovered": true
+  },
+  {
+    "id": "lever-dnb",
+    "name": "Dnb",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/dnb",
+    "ats": "lever",
+    "board": "dnb",
+    "discovered": true
+  },
+  {
+    "id": "lever-field-ai",
+    "name": "Field Ai",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/field-ai",
+    "ats": "lever",
+    "board": "field-ai",
+    "discovered": true
+  },
+  {
+    "id": "lever-flynncompanies",
+    "name": "Flynncompanies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/flynncompanies",
+    "ats": "lever",
+    "board": "flynncompanies",
     "discovered": true
   }
 ]
