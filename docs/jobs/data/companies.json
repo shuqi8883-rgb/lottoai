@@ -4703,16 +4703,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-brightsign",
-    "name": "BrightSign",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/brightsign",
-    "ats": "greenhouse",
-    "board": "brightsign",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-britive",
     "name": "Britive",
     "category": "公开招聘企业",
@@ -39713,16 +39703,6 @@
     "discovered": true
   },
   {
-    "id": "lever-aquabyte",
-    "name": "Aquabyte",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/aquabyte",
-    "ats": "lever",
-    "board": "aquabyte",
-    "discovered": true
-  },
-  {
     "id": "lever-arbitalhealth",
     "name": "Arbitalhealth",
     "category": "公开招聘企业",
@@ -39790,16 +39770,6 @@
     "official": "https://jobs.lever.co/arrivelogistics",
     "ats": "lever",
     "board": "arrivelogistics",
-    "discovered": true
-  },
-  {
-    "id": "lever-arsiem",
-    "name": "Arsiem",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/arsiem",
-    "ats": "lever",
-    "board": "arsiem",
     "discovered": true
   },
   {
@@ -40220,16 +40190,6 @@
     "official": "https://jobs.lever.co/bfsaulhotels",
     "ats": "lever",
     "board": "bfsaulhotels",
-    "discovered": true
-  },
-  {
-    "id": "lever-bhg-inc",
-    "name": "Bhg Inc",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/bhg-inc",
-    "ats": "lever",
-    "board": "bhg-inc",
     "discovered": true
   },
   {
@@ -41753,16 +41713,6 @@
     "discovered": true
   },
   {
-    "id": "lever-dnb",
-    "name": "Dnb",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/dnb",
-    "ats": "lever",
-    "board": "dnb",
-    "discovered": true
-  },
-  {
     "id": "lever-dnllc",
     "name": "Dnllc",
     "category": "公开招聘企业",
@@ -42343,16 +42293,6 @@
     "discovered": true
   },
   {
-    "id": "lever-field-ai",
-    "name": "Field Ai",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/field-ai",
-    "ats": "lever",
-    "board": "field-ai",
-    "discovered": true
-  },
-  {
     "id": "lever-fieldnation",
     "name": "Fieldnation",
     "category": "公开招聘企业",
@@ -42510,16 +42450,6 @@
     "official": "https://jobs.lever.co/flux-mobility",
     "ats": "lever",
     "board": "flux-mobility",
-    "discovered": true
-  },
-  {
-    "id": "lever-flynncompanies",
-    "name": "Flynncompanies",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/flynncompanies",
-    "ats": "lever",
-    "board": "flynncompanies",
     "discovered": true
   },
   {
@@ -51020,16 +50950,6 @@
     "official": "https://boards.greenhouse.io/sharkninjaoperatingllc",
     "ats": "greenhouse",
     "board": "sharkninjaoperatingllc",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-shein",
-    "name": "SHEIN",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/shein",
-    "ats": "greenhouse",
-    "board": "shein",
     "discovered": true
   },
   {
@@ -59650,6 +59570,66 @@
     "official": "https://jobs.lever.co/onceuponafarm",
     "ats": "lever",
     "board": "onceuponafarm",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leveltenenergy",
+    "name": "LevelTen Energy",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leveltenenergy",
+    "ats": "greenhouse",
+    "board": "leveltenenergy",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-riversidenaturalfoodsltd",
+    "name": "Riverside Natural Foods Ltd.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/riversidenaturalfoodsltd",
+    "ats": "greenhouse",
+    "board": "riversidenaturalfoodsltd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-safebreach",
+    "name": "SafeBreach",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/safebreach",
+    "ats": "greenhouse",
+    "board": "safebreach",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-seafireresortltd",
+    "name": "Kimpton Seafire Resort & Spa | Hotel Indigo Grand Cayman",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/seafireresortltd",
+    "ats": "greenhouse",
+    "board": "seafireresortltd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-studycontractors",
+    "name": "Study.com C",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/studycontractors",
+    "ats": "greenhouse",
+    "board": "studycontractors",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-watershed",
+    "name": "Watershed",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/watershed",
+    "ats": "greenhouse",
+    "board": "watershed",
     "discovered": true
   }
 ]
