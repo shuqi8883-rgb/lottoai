@@ -6543,16 +6543,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-cogentbiosciences",
-    "name": "Cogent Biosciences",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/cogentbiosciences",
-    "ats": "greenhouse",
-    "board": "cogentbiosciences",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-cognism",
     "name": "Cognism",
     "category": "公开招聘企业",
@@ -9800,16 +9790,6 @@
     "official": "https://boards.greenhouse.io/evergreennephrology",
     "ats": "greenhouse",
     "board": "evergreennephrology",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-evergreenservicesgroup",
-    "name": "Evergreen",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/evergreenservicesgroup",
-    "ats": "greenhouse",
-    "board": "evergreenservicesgroup",
     "discovered": true
   },
   {
@@ -22643,16 +22623,6 @@
     "discovered": true
   },
   {
-    "id": "ashby-sitemate",
-    "name": "Sitemate",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.ashbyhq.com/sitemate",
-    "ats": "ashby",
-    "board": "sitemate",
-    "discovered": true
-  },
-  {
     "id": "ashby-siteminder",
     "name": "Siteminder",
     "category": "公开招聘企业",
@@ -30863,16 +30833,6 @@
     "discovered": true
   },
   {
-    "id": "lever-mistplay",
-    "name": "Mistplay",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/mistplay",
-    "ats": "lever",
-    "board": "mistplay",
-    "discovered": true
-  },
-  {
     "id": "lever-miteksystems-2",
     "name": "Miteksystems 2",
     "category": "公开招聘企业",
@@ -31563,16 +31523,6 @@
     "discovered": true
   },
   {
-    "id": "lever-pathpoint",
-    "name": "Pathpoint",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/pathpoint",
-    "ats": "lever",
-    "board": "pathpoint",
-    "discovered": true
-  },
-  {
     "id": "lever-pattern",
     "name": "Pattern",
     "category": "公开招聘企业",
@@ -31600,16 +31550,6 @@
     "official": "https://jobs.lever.co/payactiv",
     "ats": "lever",
     "board": "payactiv",
-    "discovered": true
-  },
-  {
-    "id": "lever-payjoy",
-    "name": "Payjoy",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/payjoy",
-    "ats": "lever",
-    "board": "payjoy",
     "discovered": true
   },
   {
@@ -31660,16 +31600,6 @@
     "official": "https://jobs.lever.co/pentagrp",
     "ats": "lever",
     "board": "pentagrp",
-    "discovered": true
-  },
-  {
-    "id": "lever-penumbrainc",
-    "name": "Penumbrainc",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/penumbrainc",
-    "ats": "lever",
-    "board": "penumbrainc",
     "discovered": true
   },
   {
@@ -31890,16 +31820,6 @@
     "official": "https://jobs.lever.co/porter",
     "ats": "lever",
     "board": "porter",
-    "discovered": true
-  },
-  {
-    "id": "lever-portpro",
-    "name": "Portpro",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/portpro",
-    "ats": "lever",
-    "board": "portpro",
     "discovered": true
   },
   {
@@ -33053,16 +32973,6 @@
     "discovered": true
   },
   {
-    "id": "lever-spine-media",
-    "name": "Spine Media",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/spine-media",
-    "ats": "lever",
-    "board": "spine-media",
-    "discovered": true
-  },
-  {
     "id": "lever-spotify",
     "name": "Spotify",
     "category": "公开招聘企业",
@@ -34090,16 +34000,6 @@
     "official": "https://jobs.lever.co/watchguard",
     "ats": "lever",
     "board": "watchguard",
-    "discovered": true
-  },
-  {
-    "id": "lever-waterfall",
-    "name": "Waterfall",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/waterfall",
-    "ats": "lever",
-    "board": "waterfall",
     "discovered": true
   },
   {
@@ -45583,26 +45483,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-persona",
-    "name": "Persona",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/persona",
-    "ats": "greenhouse",
-    "board": "persona",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-watershed",
-    "name": "Watershed",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/watershed",
-    "ats": "greenhouse",
-    "board": "watershed",
-    "discovered": true
-  },
-  {
     "id": "ashby-matia",
     "name": "Matia",
     "category": "公开招聘企业",
@@ -45640,16 +45520,6 @@
     "official": "https://jobs.ashbyhq.com/perchwell",
     "ats": "ashby",
     "board": "perchwell",
-    "discovered": true
-  },
-  {
-    "id": "ashby-persona",
-    "name": "Persona",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.ashbyhq.com/persona",
-    "ats": "ashby",
-    "board": "persona",
     "discovered": true
   },
   {
@@ -45693,16 +45563,6 @@
     "discovered": true
   },
   {
-    "id": "lever-mable",
-    "name": "Mable",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/mable",
-    "ats": "lever",
-    "board": "mable",
-    "discovered": true
-  },
-  {
     "id": "lever-morningbrew",
     "name": "Morningbrew",
     "category": "公开招聘企业",
@@ -45723,16 +45583,6 @@
     "discovered": true
   },
   {
-    "id": "lever-persona",
-    "name": "Persona",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/persona",
-    "ats": "lever",
-    "board": "persona",
-    "discovered": true
-  },
-  {
     "id": "lever-syntronic",
     "name": "Syntronic",
     "category": "公开招聘企业",
@@ -45750,6 +45600,86 @@
     "official": "https://jobs.lever.co/txse",
     "ats": "lever",
     "board": "txse",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-goody",
+    "name": "Goody",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/goody",
+    "ats": "greenhouse",
+    "board": "goody",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-method",
+    "name": "Method",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/method",
+    "ats": "greenhouse",
+    "board": "method",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-radar",
+    "name": "Radar",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/radar",
+    "ats": "greenhouse",
+    "board": "radar",
+    "discovered": true
+  },
+  {
+    "id": "ashby-ignition",
+    "name": "Ignition",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/ignition",
+    "ats": "ashby",
+    "board": "ignition",
+    "discovered": true
+  },
+  {
+    "id": "ashby-ntegrity",
+    "name": "Ntegrity",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/ntegrity",
+    "ats": "ashby",
+    "board": "ntegrity",
+    "discovered": true
+  },
+  {
+    "id": "ashby-superdial",
+    "name": "Superdial",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/superdial",
+    "ats": "ashby",
+    "board": "superdial",
+    "discovered": true
+  },
+  {
+    "id": "lever-businesswire",
+    "name": "Businesswire",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/businesswire",
+    "ats": "lever",
+    "board": "businesswire",
+    "discovered": true
+  },
+  {
+    "id": "lever-jobgether",
+    "name": "Jobgether",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/jobgether",
+    "ats": "lever",
+    "board": "jobgether",
     "discovered": true
   }
 ]
