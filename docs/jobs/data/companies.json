@@ -39973,16 +39973,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-watershed",
-    "name": "Watershed",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/watershed",
-    "ats": "greenhouse",
-    "board": "watershed",
-    "discovered": true
-  },
-  {
     "id": "ashby-base-power",
     "name": "Base Power",
     "category": "公开招聘企业",
@@ -40060,6 +40050,66 @@
     "official": "https://jobs.lever.co/ppmi",
     "ats": "lever",
     "board": "ppmi",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-goody",
+    "name": "Goody",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/goody",
+    "ats": "greenhouse",
+    "board": "goody",
+    "discovered": true
+  },
+  {
+    "id": "lever-aledade",
+    "name": "Aledade",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/aledade",
+    "ats": "lever",
+    "board": "aledade",
+    "discovered": true
+  },
+  {
+    "id": "lever-authentic8",
+    "name": "Authentic8",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/authentic8",
+    "ats": "lever",
+    "board": "authentic8",
+    "discovered": true
+  },
+  {
+    "id": "lever-commoncause",
+    "name": "Commoncause",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/commoncause",
+    "ats": "lever",
+    "board": "commoncause",
+    "discovered": true
+  },
+  {
+    "id": "lever-dnllc",
+    "name": "Dnllc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/dnllc",
+    "ats": "lever",
+    "board": "dnllc",
+    "discovered": true
+  },
+  {
+    "id": "lever-getwingapp",
+    "name": "Getwingapp",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/getwingapp",
+    "ats": "lever",
+    "board": "getwingapp",
     "discovered": true
   }
 ]
