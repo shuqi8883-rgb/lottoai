@@ -1243,16 +1243,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-airup",
-    "name": "air up",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/airup",
-    "ats": "greenhouse",
-    "board": "airup",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-aisi",
     "name": "AI Security Institute",
     "category": "公开招聘企业",
@@ -6333,16 +6323,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-cobre",
-    "name": "Cobre",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/cobre",
-    "ats": "greenhouse",
-    "board": "cobre",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-cockroachlabs",
     "name": "Cockroach Labs",
     "category": "公开招聘企业",
@@ -10230,16 +10210,6 @@
     "official": "https://boards.greenhouse.io/meter",
     "ats": "greenhouse",
     "board": "meter",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-molecule",
-    "name": "Molecule",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/molecule",
-    "ats": "greenhouse",
-    "board": "molecule",
     "discovered": true
   },
   {
@@ -18820,16 +18790,6 @@
     "official": "https://jobs.ashbyhq.com/moego",
     "ats": "ashby",
     "board": "moego",
-    "discovered": true
-  },
-  {
-    "id": "ashby-molecule",
-    "name": "Molecule",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.ashbyhq.com/molecule",
-    "ats": "ashby",
-    "board": "molecule",
     "discovered": true
   },
   {
@@ -30093,16 +30053,6 @@
     "discovered": true
   },
   {
-    "id": "lever-mainspringenergy",
-    "name": "Mainspringenergy",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/mainspringenergy",
-    "ats": "lever",
-    "board": "mainspringenergy",
-    "discovered": true
-  },
-  {
     "id": "lever-make-rain",
     "name": "Make Rain",
     "category": "公开招聘企业",
@@ -31893,16 +31843,6 @@
     "discovered": true
   },
   {
-    "id": "lever-restaurant365",
-    "name": "Restaurant365",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/restaurant365",
-    "ats": "lever",
-    "board": "restaurant365",
-    "discovered": true
-  },
-  {
     "id": "lever-restream",
     "name": "Restream",
     "category": "公开招聘企业",
@@ -32413,16 +32353,6 @@
     "discovered": true
   },
   {
-    "id": "lever-smiledigitalhealth",
-    "name": "Smiledigitalhealth",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/smiledigitalhealth",
-    "ats": "lever",
-    "board": "smiledigitalhealth",
-    "discovered": true
-  },
-  {
     "id": "lever-snapdocs",
     "name": "Snapdocs",
     "category": "公开招聘企业",
@@ -32430,16 +32360,6 @@
     "official": "https://jobs.lever.co/snapdocs",
     "ats": "lever",
     "board": "snapdocs",
-    "discovered": true
-  },
-  {
-    "id": "lever-softworld",
-    "name": "Softworld",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/softworld",
-    "ats": "lever",
-    "board": "softworld",
     "discovered": true
   },
   {
@@ -33870,16 +33790,6 @@
     "official": "https://jobs.lever.co/zencore",
     "ats": "lever",
     "board": "zencore",
-    "discovered": true
-  },
-  {
-    "id": "lever-zensurance",
-    "name": "Zensurance",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/zensurance",
-    "ats": "lever",
-    "board": "zensurance",
     "discovered": true
   },
   {
@@ -37573,16 +37483,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-c6bank",
-    "name": "C6 Bank",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/c6bank",
-    "ats": "greenhouse",
-    "board": "c6bank",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-caliberhealth",
     "name": "Caliber Healthcare Solutions",
     "category": "公开招聘企业",
@@ -38003,13 +37903,4133 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-goody",
-    "name": "Goody",
+    "id": "greenhouse-autods",
+    "name": "AutoDS",
     "category": "公开招聘企业",
     "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/goody",
+    "official": "https://boards.greenhouse.io/autods",
     "ats": "greenhouse",
-    "board": "goody",
+    "board": "autods",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-interwellhealth",
+    "name": "Interwell Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/interwellhealth",
+    "ats": "greenhouse",
+    "board": "interwellhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-interworks",
+    "name": "InterWorks",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/interworks",
+    "ats": "greenhouse",
+    "board": "interworks",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-intradiem",
+    "name": "Intradiem",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/intradiem",
+    "ats": "greenhouse",
+    "board": "intradiem",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-intrinsicrobotics",
+    "name": "Intrinsic",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/intrinsicrobotics",
+    "ats": "greenhouse",
+    "board": "intrinsicrobotics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-inversionspace",
+    "name": "Inversion",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/inversionspace",
+    "ats": "greenhouse",
+    "board": "inversionspace",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-invgate",
+    "name": "InvGate",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/invgate",
+    "ats": "greenhouse",
+    "board": "invgate",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-invisibletech",
+    "name": "Invisible Technologies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/invisibletech",
+    "ats": "greenhouse",
+    "board": "invisibletech",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-invivyd",
+    "name": "Invivyd",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/invivyd",
+    "ats": "greenhouse",
+    "board": "invivyd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ionq",
+    "name": "IonQ",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ionq",
+    "ats": "greenhouse",
+    "board": "ionq",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-iovancebiotherapeutics",
+    "name": "Iovance Biotherapeutics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/iovancebiotherapeutics",
+    "ats": "greenhouse",
+    "board": "iovancebiotherapeutics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-iowacannabiscompany",
+    "name": "Iowa Cannabis Company",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/iowacannabiscompany",
+    "ats": "greenhouse",
+    "board": "iowacannabiscompany",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ipfabric",
+    "name": "IP Fabric",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ipfabric",
+    "ats": "greenhouse",
+    "board": "ipfabric",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ireland",
+    "name": "Liffey Moher and Blarney Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ireland",
+    "ats": "greenhouse",
+    "board": "ireland",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ironmountainsolutions",
+    "name": "IronMountain Solutions",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ironmountainsolutions",
+    "ats": "greenhouse",
+    "board": "ironmountainsolutions",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-isaraerospace",
+    "name": "Isar Aerospace SE",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/isaraerospace",
+    "ats": "greenhouse",
+    "board": "isaraerospace",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-isccareers",
+    "name": "Integrated Specialty Coverages, LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/isccareers",
+    "ats": "greenhouse",
+    "board": "isccareers",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-iseatz",
+    "name": "iSeatz",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/iseatz",
+    "ats": "greenhouse",
+    "board": "iseatz",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ispottv",
+    "name": "iSpot",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ispottv",
+    "ats": "greenhouse",
+    "board": "ispottv",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-itd",
+    "name": "itD Tech",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/itd",
+    "ats": "greenhouse",
+    "board": "itd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-iterativehealth",
+    "name": "Iterative Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/iterativehealth",
+    "ats": "greenhouse",
+    "board": "iterativehealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-itero-group",
+    "name": "Itero Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/itero-group",
+    "ats": "greenhouse",
+    "board": "itero-group",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-itftherapeutics",
+    "name": "ITF Therapeutics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/itftherapeutics",
+    "ats": "greenhouse",
+    "board": "itftherapeutics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-its",
+    "name": "Intelligent Technical Solutions",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/its",
+    "ats": "greenhouse",
+    "board": "its",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-itslogisticsllc",
+    "name": "ITS Logistics, LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/itslogisticsllc",
+    "ats": "greenhouse",
+    "board": "itslogisticsllc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ivalua",
+    "name": "Ivalua",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ivalua",
+    "ats": "greenhouse",
+    "board": "ivalua",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ixllearning",
+    "name": "IXL Learning",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ixllearning",
+    "ats": "greenhouse",
+    "board": "ixllearning",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jadebiosciences",
+    "name": "Jade Biosciences",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jadebiosciences",
+    "ats": "greenhouse",
+    "board": "jadebiosciences",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jamasoftware",
+    "name": "Jama Software",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jamasoftware",
+    "ats": "greenhouse",
+    "board": "jamasoftware",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jamf",
+    "name": "Jamf",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jamf",
+    "ats": "greenhouse",
+    "board": "jamf",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jampp",
+    "name": "Jampp",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jampp",
+    "ats": "greenhouse",
+    "board": "jampp",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-janes",
+    "name": "Janes",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/janes",
+    "ats": "greenhouse",
+    "board": "janes",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-janestreet",
+    "name": "Jane Street",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/janestreet",
+    "ats": "greenhouse",
+    "board": "janestreet",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jazzx-ai",
+    "name": "JazzX AI",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jazzx-ai",
+    "ats": "greenhouse",
+    "board": "jazzx-ai",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jdsports",
+    "name": "JD Sports",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jdsports",
+    "ats": "greenhouse",
+    "board": "jdsports",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jellyvision",
+    "name": "Jellyvision",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jellyvision",
+    "ats": "greenhouse",
+    "board": "jellyvision",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jensenhughes",
+    "name": "Jensen Hughes",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jensenhughes",
+    "ats": "greenhouse",
+    "board": "jensenhughes",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jetbrains",
+    "name": "JetBrains",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jetbrains",
+    "ats": "greenhouse",
+    "board": "jetbrains",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jetinsight",
+    "name": "JetInsight",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jetinsight",
+    "ats": "greenhouse",
+    "board": "jetinsight",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jobsatphamily",
+    "name": "Phamily",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jobsatphamily",
+    "ats": "greenhouse",
+    "board": "jobsatphamily",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jobsatpurpose",
+    "name": "Purpose PBC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jobsatpurpose",
+    "ats": "greenhouse",
+    "board": "jobsatpurpose",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jobsforthefuture",
+    "name": "JFF",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jobsforthefuture",
+    "ats": "greenhouse",
+    "board": "jobsforthefuture",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-joinaffect",
+    "name": "Affect",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/joinaffect",
+    "ats": "greenhouse",
+    "board": "joinaffect",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jointqg",
+    "name": "Join TQG Board",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jointqg",
+    "ats": "greenhouse",
+    "board": "jointqg",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-journey",
+    "name": "Journey",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/journey",
+    "ats": "greenhouse",
+    "board": "journey",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jrmconstructionmanagementllc",
+    "name": "JRM Construction Management, LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jrmconstructionmanagementllc",
+    "ats": "greenhouse",
+    "board": "jrmconstructionmanagementllc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jshiddenevents",
+    "name": "Hidden Events",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jshiddenevents",
+    "ats": "greenhouse",
+    "board": "jshiddenevents",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jukeboxhealth",
+    "name": "Jukebox Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jukeboxhealth",
+    "ats": "greenhouse",
+    "board": "jukeboxhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-julieproducts",
+    "name": "Julie",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/julieproducts",
+    "ats": "greenhouse",
+    "board": "julieproducts",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jumia",
+    "name": "Jumia",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jumia",
+    "ats": "greenhouse",
+    "board": "jumia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jumio",
+    "name": "Jumio",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jumio",
+    "ats": "greenhouse",
+    "board": "jumio",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jumptrading",
+    "name": "Jump Trading",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jumptrading",
+    "ats": "greenhouse",
+    "board": "jumptrading",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-juno",
+    "name": "Juno",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/juno",
+    "ats": "greenhouse",
+    "board": "juno",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-jusbrasil",
+    "name": "Jusbrasil",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/jusbrasil",
+    "ats": "greenhouse",
+    "board": "jusbrasil",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-justworks",
+    "name": "Justworks",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/justworks",
+    "ats": "greenhouse",
+    "board": "justworks",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-juullabs",
+    "name": "Juul Labs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/juullabs",
+    "ats": "greenhouse",
+    "board": "juullabs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-juvare",
+    "name": "Juvare",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/juvare",
+    "ats": "greenhouse",
+    "board": "juvare",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-k2spacecorporation",
+    "name": "K2 Space",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/k2spacecorporation",
+    "ats": "greenhouse",
+    "board": "k2spacecorporation",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kadmos3",
+    "name": "Kadmos",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kadmos3",
+    "ats": "greenhouse",
+    "board": "kadmos3",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kailera",
+    "name": "Kailera Therapeutics, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kailera",
+    "ats": "greenhouse",
+    "board": "kailera",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kairospower",
+    "name": "Kairos Power",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kairospower",
+    "ats": "greenhouse",
+    "board": "kairospower",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kaleo",
+    "name": "Kaléo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kaleo",
+    "ats": "greenhouse",
+    "board": "kaleo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kalepa",
+    "name": "Kalepa",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kalepa",
+    "ats": "greenhouse",
+    "board": "kalepa",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kallesgroup",
+    "name": "Kalles Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kallesgroup",
+    "ats": "greenhouse",
+    "board": "kallesgroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kano",
+    "name": "Kano",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kano",
+    "ats": "greenhouse",
+    "board": "kano",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kao",
+    "name": "Kao Corporation",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kao",
+    "ats": "greenhouse",
+    "board": "kao",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kapitus",
+    "name": "Kapitus",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kapitus",
+    "ats": "greenhouse",
+    "board": "kapitus",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-karat",
+    "name": "Karat",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/karat",
+    "ats": "greenhouse",
+    "board": "karat",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-karbon",
+    "name": "Karbon",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/karbon",
+    "ats": "greenhouse",
+    "board": "karbon",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kardfinancialinc",
+    "name": "Kard Financial, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kardfinancialinc",
+    "ats": "greenhouse",
+    "board": "kardfinancialinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kardigan",
+    "name": "Kardigan",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kardigan",
+    "ats": "greenhouse",
+    "board": "kardigan",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kargo",
+    "name": "Kargo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kargo",
+    "ats": "greenhouse",
+    "board": "kargo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kargo22",
+    "name": "Kargo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kargo22",
+    "ats": "greenhouse",
+    "board": "kargo22",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-karya",
+    "name": "Karya",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/karya",
+    "ats": "greenhouse",
+    "board": "karya",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kasa",
+    "name": "Kasa",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kasa",
+    "ats": "greenhouse",
+    "board": "kasa",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kaseya",
+    "name": "Kaseya Careers",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kaseya",
+    "ats": "greenhouse",
+    "board": "kaseya",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kayzen",
+    "name": "Kayzen",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kayzen",
+    "ats": "greenhouse",
+    "board": "kayzen",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keebo",
+    "name": "Keebo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keebo",
+    "ats": "greenhouse",
+    "board": "keebo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keeleyconstruction",
+    "name": "Keeley Construction",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keeleyconstruction",
+    "ats": "greenhouse",
+    "board": "keeleyconstruction",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keelinfrastructure",
+    "name": "Keel Infrastructure",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keelinfrastructure",
+    "ats": "greenhouse",
+    "board": "keelinfrastructure",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keenfootwear",
+    "name": "KEEN Footwear",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keenfootwear",
+    "ats": "greenhouse",
+    "board": "keenfootwear",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keensoftwarehouseas",
+    "name": "Keen Software House",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keensoftwarehouseas",
+    "ats": "greenhouse",
+    "board": "keensoftwarehouseas",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keepersecurity",
+    "name": "Keeper Security",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keepersecurity",
+    "ats": "greenhouse",
+    "board": "keepersecurity",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kellerpostman",
+    "name": "Keller Postman",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kellerpostman",
+    "ats": "greenhouse",
+    "board": "kellerpostman",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kensingtontours",
+    "name": "Kensington",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kensingtontours",
+    "ats": "greenhouse",
+    "board": "kensingtontours",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keplergroup",
+    "name": "Kepler Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keplergroup",
+    "ats": "greenhouse",
+    "board": "keplergroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kernelize",
+    "name": "Kernelize Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kernelize",
+    "ats": "greenhouse",
+    "board": "kernelize",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ketryx",
+    "name": "Ketryx",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ketryx",
+    "ats": "greenhouse",
+    "board": "ketryx",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kettle",
+    "name": "Kettle",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kettle",
+    "ats": "greenhouse",
+    "board": "kettle",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-keyfactorinc",
+    "name": "Keyfactor, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/keyfactorinc",
+    "ats": "greenhouse",
+    "board": "keyfactorinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-khaerospace",
+    "name": "KH Aerospace",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/khaerospace",
+    "ats": "greenhouse",
+    "board": "khaerospace",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-khaite",
+    "name": "KHAITE",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/khaite",
+    "ats": "greenhouse",
+    "board": "khaite",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-khanacademy",
+    "name": "Khan Academy",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/khanacademy",
+    "ats": "greenhouse",
+    "board": "khanacademy",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-khealthcareers",
+    "name": "K Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/khealthcareers",
+    "ats": "greenhouse",
+    "board": "khealthcareers",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kickstarter",
+    "name": "Kickstarter PBC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kickstarter",
+    "ats": "greenhouse",
+    "board": "kickstarter",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kikoff",
+    "name": "Kikoff",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kikoff",
+    "ats": "greenhouse",
+    "board": "kikoff",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kimballequipmentcompany",
+    "name": "Kimball Equipment Company",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kimballequipmentcompany",
+    "ats": "greenhouse",
+    "board": "kimballequipmentcompany",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kincellbio",
+    "name": "Kincellis Advanced Therapies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kincellbio",
+    "ats": "greenhouse",
+    "board": "kincellbio",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kinders",
+    "name": "Kinder's",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kinders",
+    "ats": "greenhouse",
+    "board": "kinders",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kinelo",
+    "name": "Kinelo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kinelo",
+    "ats": "greenhouse",
+    "board": "kinelo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kinexus",
+    "name": "Kinexus Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kinexus",
+    "ats": "greenhouse",
+    "board": "kinexus",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kivaorg",
+    "name": "Kiva.org",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kivaorg",
+    "ats": "greenhouse",
+    "board": "kivaorg",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kiwicoinc",
+    "name": "KiwiCo Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kiwicoinc",
+    "ats": "greenhouse",
+    "board": "kiwicoinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-klaviyo",
+    "name": "Klaviyo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/klaviyo",
+    "ats": "greenhouse",
+    "board": "klaviyo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-knack",
+    "name": "Knack",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/knack",
+    "ats": "greenhouse",
+    "board": "knack",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-knowbe4",
+    "name": "KnowBe4",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/knowbe4",
+    "ats": "greenhouse",
+    "board": "knowbe4",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-known",
+    "name": "Known",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/known",
+    "ats": "greenhouse",
+    "board": "known",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-koalafi",
+    "name": "Koalafi",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/koalafi",
+    "ats": "greenhouse",
+    "board": "koalafi",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-koboldmetals",
+    "name": "KoBold Metals",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/koboldmetals",
+    "ats": "greenhouse",
+    "board": "koboldmetals",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-koboldmetalsdrc",
+    "name": "KoBold Metals DRC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/koboldmetalsdrc",
+    "ats": "greenhouse",
+    "board": "koboldmetalsdrc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kodiak",
+    "name": "Kodiak",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kodiak",
+    "ats": "greenhouse",
+    "board": "kodiak",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kodiaksolutions",
+    "name": "Kodiak Solutions",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kodiaksolutions",
+    "ats": "greenhouse",
+    "board": "kodiaksolutions",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-koleyjessen",
+    "name": "Koley Jessen P.C., L.L.O",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/koleyjessen",
+    "ats": "greenhouse",
+    "board": "koleyjessen",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-komodohealth",
+    "name": "Komodo Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/komodohealth",
+    "ats": "greenhouse",
+    "board": "komodohealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-konovo",
+    "name": "Konovo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/konovo",
+    "ats": "greenhouse",
+    "board": "konovo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kraftonindia",
+    "name": "KRAFTON INDIA",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kraftonindia",
+    "ats": "greenhouse",
+    "board": "kraftonindia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-krollbondratingagency",
+    "name": "KBRA",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/krollbondratingagency",
+    "ats": "greenhouse",
+    "board": "krollbondratingagency",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kuraoncology",
+    "name": "Kura Oncology",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kuraoncology",
+    "ats": "greenhouse",
+    "board": "kuraoncology",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kyocare",
+    "name": "Kyo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kyocare",
+    "ats": "greenhouse",
+    "board": "kyocare",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-kyowakirinusa90",
+    "name": "Kyowa Kirin North America",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/kyowakirinusa90",
+    "ats": "greenhouse",
+    "board": "kyowakirinusa90",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-la28careers",
+    "name": "LA28 (Web)",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/la28careers",
+    "ats": "greenhouse",
+    "board": "la28careers",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-labelbox",
+    "name": "Labelbox",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/labelbox",
+    "ats": "greenhouse",
+    "board": "labelbox",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-laboratoirertingscom",
+    "name": "RTINGS.com (FR)",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/laboratoirertingscom",
+    "ats": "greenhouse",
+    "board": "laboratoirertingscom",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-labviva",
+    "name": "Labviva",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/labviva",
+    "ats": "greenhouse",
+    "board": "labviva",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ladder33",
+    "name": "Ladder",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ladder33",
+    "ats": "greenhouse",
+    "board": "ladder33",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lakefieldveterinarygroup",
+    "name": "Lakefield Veterinary Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lakefieldveterinarygroup",
+    "ats": "greenhouse",
+    "board": "lakefieldveterinarygroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lambcareers",
+    "name": "Lamb Insurance Services",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lambcareers",
+    "ats": "greenhouse",
+    "board": "lambcareers",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-landor",
+    "name": "Landor",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/landor",
+    "ats": "greenhouse",
+    "board": "landor",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-laporteusa",
+    "name": "LAPORTE USA",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/laporteusa",
+    "ats": "greenhouse",
+    "board": "laporteusa",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-larkinstreetyouthservices",
+    "name": "Larkin Street Youth Services",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/larkinstreetyouthservices",
+    "ats": "greenhouse",
+    "board": "larkinstreetyouthservices",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lasenza",
+    "name": "La Senza",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lasenza",
+    "ats": "greenhouse",
+    "board": "lasenza",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lastpass",
+    "name": "LastPass",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lastpass",
+    "ats": "greenhouse",
+    "board": "lastpass",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-later",
+    "name": "Later",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/later",
+    "ats": "greenhouse",
+    "board": "later",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-latitude",
+    "name": "Latitude AI",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/latitude",
+    "ats": "greenhouse",
+    "board": "latitude",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lattice",
+    "name": "Lattice",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lattice",
+    "ats": "greenhouse",
+    "board": "lattice",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-launch2",
+    "name": "Launch Potato",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/launch2",
+    "ats": "greenhouse",
+    "board": "launch2",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-launchdarkly",
+    "name": "LaunchDarkly",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/launchdarkly",
+    "ats": "greenhouse",
+    "board": "launchdarkly",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-launchpadtechnologiesinc",
+    "name": "Launchpad Technologies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/launchpadtechnologiesinc",
+    "ats": "greenhouse",
+    "board": "launchpadtechnologiesinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-launchpotato",
+    "name": "LP Careers Page",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/launchpotato",
+    "ats": "greenhouse",
+    "board": "launchpotato",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lawmatics",
+    "name": "Lawmatics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lawmatics",
+    "ats": "greenhouse",
+    "board": "lawmatics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-layerhealth",
+    "name": "Layer Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/layerhealth",
+    "ats": "greenhouse",
+    "board": "layerhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-layerzerolabs",
+    "name": "LayerZero Labs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/layerzerolabs",
+    "ats": "greenhouse",
+    "board": "layerzerolabs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leadingeducators",
+    "name": "Leading Educators Careers",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leadingeducators",
+    "ats": "greenhouse",
+    "board": "leadingeducators",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leaflink",
+    "name": "LeafLink",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leaflink",
+    "ats": "greenhouse",
+    "board": "leaflink",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leagueinc",
+    "name": "League Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leagueinc",
+    "ats": "greenhouse",
+    "board": "leagueinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leapwork",
+    "name": "Leapwork",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leapwork",
+    "ats": "greenhouse",
+    "board": "leapwork",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-learneo",
+    "name": "Learneo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/learneo",
+    "ats": "greenhouse",
+    "board": "learneo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-learningnetwork",
+    "name": "Learning Network",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/learningnetwork",
+    "ats": "greenhouse",
+    "board": "learningnetwork",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-learnlux",
+    "name": "LearnLux",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/learnlux",
+    "ats": "greenhouse",
+    "board": "learnlux",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leasingmarkt",
+    "name": "LeasingMarkt.de",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leasingmarkt",
+    "ats": "greenhouse",
+    "board": "leasingmarkt",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ledgy",
+    "name": "Ledgy",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ledgy",
+    "ats": "greenhouse",
+    "board": "ledgy",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-legalservicesnyc",
+    "name": "Legal Services NYC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/legalservicesnyc",
+    "ats": "greenhouse",
+    "board": "legalservicesnyc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-legendcareers",
+    "name": "Legend Biotech US",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/legendcareers",
+    "ats": "greenhouse",
+    "board": "legendcareers",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-legendcareerseu",
+    "name": "Legend Biotech EU",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/legendcareerseu",
+    "ats": "greenhouse",
+    "board": "legendcareerseu",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-legion",
+    "name": "Legion",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/legion",
+    "ats": "greenhouse",
+    "board": "legion",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lelandsaylorassociates",
+    "name": "Leland Saylor Associates",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lelandsaylorassociates",
+    "ats": "greenhouse",
+    "board": "lelandsaylorassociates",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lemurianlabs",
+    "name": "Lemurian Labs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lemurianlabs",
+    "ats": "greenhouse",
+    "board": "lemurianlabs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lendingtree",
+    "name": "LendingTree",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lendingtree",
+    "ats": "greenhouse",
+    "board": "lendingtree",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lendzfinancial",
+    "name": "Lendz Financial",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lendzfinancial",
+    "ats": "greenhouse",
+    "board": "lendzfinancial",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-leolabsinc",
+    "name": "LeoLabs, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/leolabsinc",
+    "ats": "greenhouse",
+    "board": "leolabsinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-levanta",
+    "name": "Levanta",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/levanta",
+    "ats": "greenhouse",
+    "board": "levanta",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-levelaccess",
+    "name": "Level Access",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/levelaccess",
+    "ats": "greenhouse",
+    "board": "levelaccess",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-levio",
+    "name": "Levio",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/levio",
+    "ats": "greenhouse",
+    "board": "levio",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lgelectronics",
+    "name": "LG Electronics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lgelectronics",
+    "ats": "greenhouse",
+    "board": "lgelectronics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-li-thermal-works",
+    "name": "Thermal Works",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/li-thermal-works",
+    "ats": "greenhouse",
+    "board": "li-thermal-works",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liaisoninternational",
+    "name": "Liaison International",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liaisoninternational",
+    "ats": "greenhouse",
+    "board": "liaisoninternational",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liberate",
+    "name": "Liberate",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liberate",
+    "ats": "greenhouse",
+    "board": "liberate",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-licor",
+    "name": "LI-COR",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/licor",
+    "ats": "greenhouse",
+    "board": "licor",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-life360",
+    "name": "Life360",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/life360",
+    "ats": "greenhouse",
+    "board": "life360",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liftoff",
+    "name": "Liftoff",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liftoff",
+    "ats": "greenhouse",
+    "board": "liftoff",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lig",
+    "name": "Landmark Information Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lig",
+    "ats": "greenhouse",
+    "board": "lig",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightfeatheriollc",
+    "name": "LIGHTFEATHER IO LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightfeatheriollc",
+    "ats": "greenhouse",
+    "board": "lightfeatheriollc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightforceorthodontics",
+    "name": "LightForce Orthodontics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightforceorthodontics",
+    "ats": "greenhouse",
+    "board": "lightforceorthodontics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lighthouse",
+    "name": "Lighthouse",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lighthouse",
+    "ats": "greenhouse",
+    "board": "lighthouse",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightmatter",
+    "name": "Lightmatter",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightmatter",
+    "ats": "greenhouse",
+    "board": "lightmatter",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightningai",
+    "name": "Lightning AI",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightningai",
+    "ats": "greenhouse",
+    "board": "lightningai",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightspeeddms",
+    "name": "Lightspeed DMS",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightspeeddms",
+    "ats": "greenhouse",
+    "board": "lightspeeddms",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lightspeedsystems",
+    "name": "Lightspeed Systems",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lightspeedsystems",
+    "ats": "greenhouse",
+    "board": "lightspeedsystems",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liginternal",
+    "name": "Landmark Information Group - Internal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liginternal",
+    "ats": "greenhouse",
+    "board": "liginternal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lilasciences",
+    "name": "Lila Sciences",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lilasciences",
+    "ats": "greenhouse",
+    "board": "lilasciences",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liminalai",
+    "name": "Liminal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liminalai",
+    "ats": "greenhouse",
+    "board": "liminalai",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lincoln",
+    "name": "Lincoln Property Company through LinkedIn",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lincoln",
+    "ats": "greenhouse",
+    "board": "lincoln",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lindawernerassociates",
+    "name": "Linda Werner & Associates",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lindawernerassociates",
+    "ats": "greenhouse",
+    "board": "lindawernerassociates",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-link",
+    "name": "LINK",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/link",
+    "ats": "greenhouse",
+    "board": "link",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-linkedinjobs",
+    "name": "Talon.One LinkedIn Jobs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/linkedinjobs",
+    "ats": "greenhouse",
+    "board": "linkedinjobs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-linqia",
+    "name": "Linqia",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/linqia",
+    "ats": "greenhouse",
+    "board": "linqia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liquibase",
+    "name": "Liquibase",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liquibase",
+    "ats": "greenhouse",
+    "board": "liquibase",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liquiddeath",
+    "name": "Liquid Death",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liquiddeath",
+    "ats": "greenhouse",
+    "board": "liquiddeath",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liquidpersonnel",
+    "name": "Liquid Personnel",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liquidpersonnel",
+    "ats": "greenhouse",
+    "board": "liquidpersonnel",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lirio",
+    "name": "Lirio",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lirio",
+    "ats": "greenhouse",
+    "board": "lirio",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lisc",
+    "name": "Local Initiatives Support Corporation",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lisc",
+    "ats": "greenhouse",
+    "board": "lisc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liscinternships",
+    "name": "Internship Opportunities",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liscinternships",
+    "ats": "greenhouse",
+    "board": "liscinternships",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lithic",
+    "name": "Lithic",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lithic",
+    "ats": "greenhouse",
+    "board": "lithic",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-litify",
+    "name": "Litify",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/litify",
+    "ats": "greenhouse",
+    "board": "litify",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-litmos",
+    "name": "Litmos",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/litmos",
+    "ats": "greenhouse",
+    "board": "litmos",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-littlespoon",
+    "name": "Little Spoon",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/littlespoon",
+    "ats": "greenhouse",
+    "board": "littlespoon",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lively",
+    "name": "Lively",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lively",
+    "ats": "greenhouse",
+    "board": "lively",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lively43",
+    "name": "Lively",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lively43",
+    "ats": "greenhouse",
+    "board": "lively43",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-liventus",
+    "name": "Liventus - US",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/liventus",
+    "ats": "greenhouse",
+    "board": "liventus",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-llrpartnersjobs",
+    "name": "LLR Partners",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/llrpartnersjobs",
+    "ats": "greenhouse",
+    "board": "llrpartnersjobs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lob",
+    "name": "Lob",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lob",
+    "ats": "greenhouse",
+    "board": "lob",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-localcoin",
+    "name": "Localcoin",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/localcoin",
+    "ats": "greenhouse",
+    "board": "localcoin",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lockwood",
+    "name": "The Lockwood Group, LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lockwood",
+    "ats": "greenhouse",
+    "board": "lockwood",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-locusrobotics",
+    "name": "Locus Robotics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/locusrobotics",
+    "ats": "greenhouse",
+    "board": "locusrobotics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lodestarspace",
+    "name": "Lodestar",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lodestarspace",
+    "ats": "greenhouse",
+    "board": "lodestarspace",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-loenbro",
+    "name": "Loenbro",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/loenbro",
+    "ats": "greenhouse",
+    "board": "loenbro",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-loftfederal",
+    "name": "Loft Federal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/loftfederal",
+    "ats": "greenhouse",
+    "board": "loftfederal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-loganpremiumlogistics",
+    "name": "Logan Premium Logistics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/loganpremiumlogistics",
+    "ats": "greenhouse",
+    "board": "loganpremiumlogistics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-logos",
+    "name": "Logos",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/logos",
+    "ats": "greenhouse",
+    "board": "logos",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lokainc",
+    "name": "Loka, Inc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lokainc",
+    "ats": "greenhouse",
+    "board": "lokainc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lokajobs",
+    "name": "Loka® Inc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lokajobs",
+    "ats": "greenhouse",
+    "board": "lokajobs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lokalise",
+    "name": "Lokalise",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lokalise",
+    "ats": "greenhouse",
+    "board": "lokalise",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lolablankets",
+    "name": "Lola Blankets",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lolablankets",
+    "ats": "greenhouse",
+    "board": "lolablankets",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lottebiologicsusallc",
+    "name": "LOTTE BIOLOGICS USA, LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lottebiologicsusallc",
+    "ats": "greenhouse",
+    "board": "lottebiologicsusallc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-loyal",
+    "name": "Loyal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/loyal",
+    "ats": "greenhouse",
+    "board": "loyal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-loyal36",
+    "name": "Loyal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/loyal36",
+    "ats": "greenhouse",
+    "board": "loyal36",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lpc",
+    "name": "Lincoln Property Company",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lpc",
+    "ats": "greenhouse",
+    "board": "lpc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ltkuk",
+    "name": "LTK UK",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ltkuk",
+    "ats": "greenhouse",
+    "board": "ltkuk",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lts",
+    "name": "LTS",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lts",
+    "ats": "greenhouse",
+    "board": "lts",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ltse",
+    "name": "LTSE",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ltse",
+    "ats": "greenhouse",
+    "board": "ltse",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lucanetgroup",
+    "name": "Lucanet Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lucanetgroup",
+    "ats": "greenhouse",
+    "board": "lucanetgroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lucenia",
+    "name": "Lucenia Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lucenia",
+    "ats": "greenhouse",
+    "board": "lucenia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lucidmotors",
+    "name": "Lucid Motors",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lucidmotors",
+    "ats": "greenhouse",
+    "board": "lucidmotors",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lucidsoftware",
+    "name": "Lucid Software",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lucidsoftware",
+    "ats": "greenhouse",
+    "board": "lucidsoftware",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-ludiaconsulting",
+    "name": "Ludia Consulting",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/ludiaconsulting",
+    "ats": "greenhouse",
+    "board": "ludiaconsulting",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lumahealth",
+    "name": "Luma Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lumahealth",
+    "ats": "greenhouse",
+    "board": "lumahealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lumimeds",
+    "name": "Lumimeds",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lumimeds",
+    "ats": "greenhouse",
+    "board": "lumimeds",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-luminaryhospice",
+    "name": "Luminary Hospice",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/luminaryhospice",
+    "ats": "greenhouse",
+    "board": "luminaryhospice",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-luminishealth",
+    "name": "Luminis Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/luminishealth",
+    "ats": "greenhouse",
+    "board": "luminishealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lumos",
+    "name": "Lumos",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lumos",
+    "ats": "greenhouse",
+    "board": "lumos",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lumosassociates",
+    "name": "Lumos & Associates",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lumosassociates",
+    "ats": "greenhouse",
+    "board": "lumosassociates",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lumosfiber",
+    "name": "Lumos",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lumosfiber",
+    "ats": "greenhouse",
+    "board": "lumosfiber",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lunarenergy",
+    "name": "Lunar Energy",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lunarenergy",
+    "ats": "greenhouse",
+    "board": "lunarenergy",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-luno",
+    "name": "Luno",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/luno",
+    "ats": "greenhouse",
+    "board": "luno",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lusternational",
+    "name": "Luster National",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lusternational",
+    "ats": "greenhouse",
+    "board": "lusternational",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lydech",
+    "name": "Lydech Thermal Acoustic Solutions (TAS)",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lydech",
+    "ats": "greenhouse",
+    "board": "lydech",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lyellimmunopharma",
+    "name": "Lyell Immunopharma",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lyellimmunopharma",
+    "ats": "greenhouse",
+    "board": "lyellimmunopharma",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lyft",
+    "name": "Lyft",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lyft",
+    "ats": "greenhouse",
+    "board": "lyft",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lynxanalytics",
+    "name": "Lynx Analytics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lynxanalytics",
+    "ats": "greenhouse",
+    "board": "lynxanalytics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-lyratechgroup",
+    "name": "Lyra Technology Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/lyratechgroup",
+    "ats": "greenhouse",
+    "board": "lyratechgroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-m0dbathenextthingltd",
+    "name": "M0",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/m0dbathenextthingltd",
+    "ats": "greenhouse",
+    "board": "m0dbathenextthingltd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-m9solutions",
+    "name": "M9 Solutions",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/m9solutions",
+    "ats": "greenhouse",
+    "board": "m9solutions",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mabl",
+    "name": "mabl",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mabl",
+    "ats": "greenhouse",
+    "board": "mabl",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-machinifyinc",
+    "name": "Machinify",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/machinifyinc",
+    "ats": "greenhouse",
+    "board": "machinifyinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-madisonlogicinc",
+    "name": "Madison Logic",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/madisonlogicinc",
+    "ats": "greenhouse",
+    "board": "madisonlogicinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-madisonreedcolorbar",
+    "name": "Madison Reed",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/madisonreedcolorbar",
+    "ats": "greenhouse",
+    "board": "madisonreedcolorbar",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-magnolia",
+    "name": "Magnolia",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/magnolia",
+    "ats": "greenhouse",
+    "board": "magnolia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-magrathea",
+    "name": "Magrathea",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/magrathea",
+    "ats": "greenhouse",
+    "board": "magrathea",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-majorleaguebaseball",
+    "name": "Major League Baseball",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/majorleaguebaseball",
+    "ats": "greenhouse",
+    "board": "majorleaguebaseball",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-make",
+    "name": "Make",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/make",
+    "ats": "greenhouse",
+    "board": "make",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-makeawishamerica",
+    "name": "Make-A-Wish America",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/makeawishamerica",
+    "ats": "greenhouse",
+    "board": "makeawishamerica",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-malloryalexander",
+    "name": "Mallory Alexander International Logistics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/malloryalexander",
+    "ats": "greenhouse",
+    "board": "malloryalexander",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mammothbrands",
+    "name": "Mammoth Brands",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mammothbrands",
+    "ats": "greenhouse",
+    "board": "mammothbrands",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-manhattaninstituteforpolicyresearchinc",
+    "name": "Manhattan Institute for Policy Research, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/manhattaninstituteforpolicyresearchinc",
+    "ats": "greenhouse",
+    "board": "manhattaninstituteforpolicyresearchinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-manifest",
+    "name": "Manifest",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/manifest",
+    "ats": "greenhouse",
+    "board": "manifest",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-manifoldai",
+    "name": "Manifold AI",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/manifoldai",
+    "ats": "greenhouse",
+    "board": "manifoldai",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-manscaped",
+    "name": "MANSCAPED",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/manscaped",
+    "ats": "greenhouse",
+    "board": "manscaped",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mantrahealth",
+    "name": "Mantra Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mantrahealth",
+    "ats": "greenhouse",
+    "board": "mantrahealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-map",
+    "name": "MAP",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/map",
+    "ats": "greenhouse",
+    "board": "map",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-maplighttherapeutics",
+    "name": "MapLight Therapeutics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/maplighttherapeutics",
+    "ats": "greenhouse",
+    "board": "maplighttherapeutics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-maravailifesciences",
+    "name": "Maravai LifeSciences",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/maravailifesciences",
+    "ats": "greenhouse",
+    "board": "maravailifesciences",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-margaux",
+    "name": "Margaux",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/margaux",
+    "ats": "greenhouse",
+    "board": "margaux",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mariadbplc",
+    "name": "MariaDB plc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mariadbplc",
+    "ats": "greenhouse",
+    "board": "mariadbplc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-marinomanagementllc",
+    "name": "Dalio Family Office",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/marinomanagementllc",
+    "ats": "greenhouse",
+    "board": "marinomanagementllc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mark43",
+    "name": "Mark43",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mark43",
+    "ats": "greenhouse",
+    "board": "mark43",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-marksman",
+    "name": "Marksman Security LLC",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/marksman",
+    "ats": "greenhouse",
+    "board": "marksman",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-marqvision",
+    "name": "MarqVision",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/marqvision",
+    "ats": "greenhouse",
+    "board": "marqvision",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-marscousg",
+    "name": "Mars & Co - New York City Area",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/marscousg",
+    "ats": "greenhouse",
+    "board": "marscousg",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-martellgrowthsolutions",
+    "name": "Martell Ventures",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/martellgrowthsolutions",
+    "ats": "greenhouse",
+    "board": "martellgrowthsolutions",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-marvelfusion",
+    "name": "Marvel Fusion",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/marvelfusion",
+    "ats": "greenhouse",
+    "board": "marvelfusion",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mastercontrol",
+    "name": "MasterControl",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mastercontrol",
+    "ats": "greenhouse",
+    "board": "mastercontrol",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-materialbank",
+    "name": "Material Bank",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/materialbank",
+    "ats": "greenhouse",
+    "board": "materialbank",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-matherintysons",
+    "name": "The Mather in Tysons",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/matherintysons",
+    "ats": "greenhouse",
+    "board": "matherintysons",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mathersplendido",
+    "name": "Splendido",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mathersplendido",
+    "ats": "greenhouse",
+    "board": "mathersplendido",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-matic",
+    "name": "Matic",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/matic",
+    "ats": "greenhouse",
+    "board": "matic",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-matik",
+    "name": "Matik",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/matik",
+    "ats": "greenhouse",
+    "board": "matik",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-matteprojects",
+    "name": "MATTE PROJECTS",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/matteprojects",
+    "ats": "greenhouse",
+    "board": "matteprojects",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mattermost",
+    "name": "Mattermost",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mattermost",
+    "ats": "greenhouse",
+    "board": "mattermost",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-maven",
+    "name": "Maven",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/maven",
+    "ats": "greenhouse",
+    "board": "maven",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mavenclinic",
+    "name": "Maven Clinic",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mavenclinic",
+    "ats": "greenhouse",
+    "board": "mavenclinic",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mavenclinicproviders",
+    "name": "Maven Clinic 1099 Provider Network",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mavenclinicproviders",
+    "ats": "greenhouse",
+    "board": "mavenclinicproviders",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mavenrobotics",
+    "name": "Maven Robotics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mavenrobotics",
+    "ats": "greenhouse",
+    "board": "mavenrobotics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mavensecuritiesholdingltd",
+    "name": "Maven",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mavensecuritiesholdingltd",
+    "ats": "greenhouse",
+    "board": "mavensecuritiesholdingltd",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-maxcessinternational",
+    "name": "Maxcess International",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/maxcessinternational",
+    "ats": "greenhouse",
+    "board": "maxcessinternational",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-maymobility",
+    "name": "May Mobility",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/maymobility",
+    "ats": "greenhouse",
+    "board": "maymobility",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mazetherapeutics",
+    "name": "Maze Therapeutics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mazetherapeutics",
+    "ats": "greenhouse",
+    "board": "mazetherapeutics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mbarecruitingcra",
+    "name": "Charles River Associates - Private",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mbarecruitingcra",
+    "ats": "greenhouse",
+    "board": "mbarecruitingcra",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mbooth",
+    "name": "M Booth",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mbooth",
+    "ats": "greenhouse",
+    "board": "mbooth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mboothhealth",
+    "name": "M Booth Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mboothhealth",
+    "ats": "greenhouse",
+    "board": "mboothhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mcghealth",
+    "name": "MCG Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mcghealth",
+    "ats": "greenhouse",
+    "board": "mcghealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mcs",
+    "name": "Minnesota Cannabis Services",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mcs",
+    "ats": "greenhouse",
+    "board": "mcs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mdclarity",
+    "name": "MD Clarity",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mdclarity",
+    "ats": "greenhouse",
+    "board": "mdclarity",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medallion",
+    "name": "Medallion",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medallion",
+    "ats": "greenhouse",
+    "board": "medallion",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medallionakafirstlayerai",
+    "name": "Medallion",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medallionakafirstlayerai",
+    "ats": "greenhouse",
+    "board": "medallionakafirstlayerai",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medeanalytics",
+    "name": "MedeAnalytics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medeanalytics",
+    "ats": "greenhouse",
+    "board": "medeanalytics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medelitellc",
+    "name": "MedElite Group, LLC.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medelitellc",
+    "ats": "greenhouse",
+    "board": "medelitellc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mediaalpha",
+    "name": "MediaAlpha",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mediaalpha",
+    "ats": "greenhouse",
+    "board": "mediaalpha",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mediabrands",
+    "name": "Omnicom Media",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mediabrands",
+    "ats": "greenhouse",
+    "board": "mediabrands",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medicalinformaticsengineering",
+    "name": "Medical Informatics Engineering/Enterprise Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medicalinformaticsengineering",
+    "ats": "greenhouse",
+    "board": "medicalinformaticsengineering",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medispend",
+    "name": "MediSpend",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medispend",
+    "ats": "greenhouse",
+    "board": "medispend",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medistrava",
+    "name": "MEDiSTRAVA",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medistrava",
+    "ats": "greenhouse",
+    "board": "medistrava",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medium",
+    "name": "Medium",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medium",
+    "ats": "greenhouse",
+    "board": "medium",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-medsien",
+    "name": "Medsien",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/medsien",
+    "ats": "greenhouse",
+    "board": "medsien",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-megacorplogistics",
+    "name": "MegaCorp Logistics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/megacorplogistics",
+    "ats": "greenhouse",
+    "board": "megacorplogistics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mejuri",
+    "name": "Mejuri",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mejuri",
+    "ats": "greenhouse",
+    "board": "mejuri",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meltplan",
+    "name": "Meltplan",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meltplan",
+    "ats": "greenhouse",
+    "board": "meltplan",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-memglobal",
+    "name": "Mem Global",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/memglobal",
+    "ats": "greenhouse",
+    "board": "memglobal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-memoryblue",
+    "name": "memoryBlue",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/memoryblue",
+    "ats": "greenhouse",
+    "board": "memoryblue",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-memx",
+    "name": "MEMX",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/memx",
+    "ats": "greenhouse",
+    "board": "memx",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mendaerainc",
+    "name": "Mendaera, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mendaerainc",
+    "ats": "greenhouse",
+    "board": "mendaerainc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mentalhealthcenterofdenver",
+    "name": "WellPower - All Jobs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mentalhealthcenterofdenver",
+    "ats": "greenhouse",
+    "board": "mentalhealthcenterofdenver",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-merceradvisors",
+    "name": "Mercer Advisors",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/merceradvisors",
+    "ats": "greenhouse",
+    "board": "merceradvisors",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-merchantsfleetmanagement",
+    "name": "Merchants Fleet",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/merchantsfleetmanagement",
+    "ats": "greenhouse",
+    "board": "merchantsfleetmanagement",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mercury",
+    "name": "Mercury",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mercury",
+    "ats": "greenhouse",
+    "board": "mercury",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mercyforanimals",
+    "name": "Mercy For Animals",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mercyforanimals",
+    "ats": "greenhouse",
+    "board": "mercyforanimals",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mergeworld",
+    "name": "MERGE",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mergeworld",
+    "ats": "greenhouse",
+    "board": "mergeworld",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meridian",
+    "name": "Meridian",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meridian",
+    "ats": "greenhouse",
+    "board": "meridian",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meridianpartners",
+    "name": "Meridian Partners",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meridianpartners",
+    "ats": "greenhouse",
+    "board": "meridianpartners",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meritamerica",
+    "name": "Merit America",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meritamerica",
+    "ats": "greenhouse",
+    "board": "meritamerica",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meriton",
+    "name": "Meriton",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meriton",
+    "ats": "greenhouse",
+    "board": "meriton",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-meruhealth",
+    "name": "Meru Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/meruhealth",
+    "ats": "greenhouse",
+    "board": "meruhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mesh",
+    "name": "Mesh",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mesh",
+    "ats": "greenhouse",
+    "board": "mesh",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metalab",
+    "name": "Metalab",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metalab",
+    "ats": "greenhouse",
+    "board": "metalab",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metoxinternationalinc",
+    "name": "MetOx International, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metoxinternationalinc",
+    "ats": "greenhouse",
+    "board": "metoxinternationalinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metron",
+    "name": "Metron",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metron",
+    "ats": "greenhouse",
+    "board": "metron",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metropolitancommercialbank",
+    "name": "Metropolitan Commercial Bank",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metropolitancommercialbank",
+    "ats": "greenhouse",
+    "board": "metropolitancommercialbank",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metrostarsystems",
+    "name": "MetroStar",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metrostarsystems",
+    "ats": "greenhouse",
+    "board": "metrostarsystems",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-metroveincenters",
+    "name": "Metro Vein Centers",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/metroveincenters",
+    "ats": "greenhouse",
+    "board": "metroveincenters",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mettel",
+    "name": "MetTel",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mettel",
+    "ats": "greenhouse",
+    "board": "mettel",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mewssystems",
+    "name": "Mews",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mewssystems",
+    "ats": "greenhouse",
+    "board": "mewssystems",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mhi",
+    "name": "Myers-Holum",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mhi",
+    "ats": "greenhouse",
+    "board": "mhi",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-micoworks",
+    "name": "Mico",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/micoworks",
+    "ats": "greenhouse",
+    "board": "micoworks",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-microblink",
+    "name": "Microblink",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/microblink",
+    "ats": "greenhouse",
+    "board": "microblink",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-midihealth",
+    "name": "Midi Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/midihealth",
+    "ats": "greenhouse",
+    "board": "midihealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-midpenhousing",
+    "name": "MidPen Housing",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/midpenhousing",
+    "ats": "greenhouse",
+    "board": "midpenhousing",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mightynetworks",
+    "name": "Mighty Networks",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mightynetworks",
+    "ats": "greenhouse",
+    "board": "mightynetworks",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mill",
+    "name": "Mill",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mill",
+    "ats": "greenhouse",
+    "board": "mill",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-millervein",
+    "name": "Miller Vein",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/millervein",
+    "ats": "greenhouse",
+    "board": "millervein",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-milliondollarbabyco",
+    "name": "Million Dollar Baby Co.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/milliondollarbabyco",
+    "ats": "greenhouse",
+    "board": "milliondollarbabyco",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mindgrub",
+    "name": "Mindgrub",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mindgrub",
+    "ats": "greenhouse",
+    "board": "mindgrub",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mindsquareag",
+    "name": "mindsquare AG",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mindsquareag",
+    "ats": "greenhouse",
+    "board": "mindsquareag",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mineralystherapeutics",
+    "name": "Mineralys Therapeutics",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mineralystherapeutics",
+    "ats": "greenhouse",
+    "board": "mineralystherapeutics",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-minimal",
+    "name": "Minimal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/minimal",
+    "ats": "greenhouse",
+    "board": "minimal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-minio",
+    "name": "MinIO",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/minio",
+    "ats": "greenhouse",
+    "board": "minio",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-minitab",
+    "name": "Minitab",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/minitab",
+    "ats": "greenhouse",
+    "board": "minitab",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mintel",
+    "name": "Mintel",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mintel",
+    "ats": "greenhouse",
+    "board": "mintel",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-miopartners",
+    "name": "MIO Partners",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/miopartners",
+    "ats": "greenhouse",
+    "board": "miopartners",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-miqdigital",
+    "name": "MiQ Digital",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/miqdigital",
+    "ats": "greenhouse",
+    "board": "miqdigital",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mirakl",
+    "name": "Mirakl",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mirakl",
+    "ats": "greenhouse",
+    "board": "mirakl",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-miraklfr",
+    "name": "Mirakl - French",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/miraklfr",
+    "ats": "greenhouse",
+    "board": "miraklfr",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mirakllabs",
+    "name": "Mirakl - Labs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mirakllabs",
+    "ats": "greenhouse",
+    "board": "mirakllabs",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-miris",
+    "name": "Miris",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/miris",
+    "ats": "greenhouse",
+    "board": "miris",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mirumpharmaceuticals",
+    "name": "Mirum Pharmaceuticals",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mirumpharmaceuticals",
+    "ats": "greenhouse",
+    "board": "mirumpharmaceuticals",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-misfitsmarket",
+    "name": "Misfits Market",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/misfitsmarket",
+    "ats": "greenhouse",
+    "board": "misfitsmarket",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-missionlane",
+    "name": "Mission Lane",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/missionlane",
+    "ats": "greenhouse",
+    "board": "missionlane",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mitratech",
+    "name": "Mitratech",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mitratech",
+    "ats": "greenhouse",
+    "board": "mitratech",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mitsogoinc",
+    "name": "Mitsogo Inc",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mitsogoinc",
+    "ats": "greenhouse",
+    "board": "mitsogoinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mitsubishimotorsna",
+    "name": "Mitsubishi Motors North America, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mitsubishimotorsna",
+    "ats": "greenhouse",
+    "board": "mitsubishimotorsna",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mixmode",
+    "name": "MixMode",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mixmode",
+    "ats": "greenhouse",
+    "board": "mixmode",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mixpanel",
+    "name": "Mixpanel",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mixpanel",
+    "ats": "greenhouse",
+    "board": "mixpanel",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mixtiles",
+    "name": "Mixtiles",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mixtiles",
+    "ats": "greenhouse",
+    "board": "mixtiles",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mizzenandmain",
+    "name": "Mizzen+Main",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mizzenandmain",
+    "ats": "greenhouse",
+    "board": "mizzenandmain",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mks2technologies",
+    "name": "MKS2 Technologies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mks2technologies",
+    "ats": "greenhouse",
+    "board": "mks2technologies",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mlbevents",
+    "name": "MLB (Job Board Only)",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mlbevents",
+    "ats": "greenhouse",
+    "board": "mlbevents",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mm",
+    "name": "Media Molecule",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mm",
+    "ats": "greenhouse",
+    "board": "mm",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mntn",
+    "name": "MNTN",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mntn",
+    "ats": "greenhouse",
+    "board": "mntn",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mobentertainment",
+    "name": "Mob Entertainment",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mobentertainment",
+    "ats": "greenhouse",
+    "board": "mobentertainment",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mobilityware",
+    "name": "MobilityWare",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mobilityware",
+    "ats": "greenhouse",
+    "board": "mobilityware",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mobsquad",
+    "name": "MobSquad",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mobsquad",
+    "ats": "greenhouse",
+    "board": "mobsquad",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mochihealth",
+    "name": "Mochi Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mochihealth",
+    "ats": "greenhouse",
+    "board": "mochihealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moderawealthmanagement",
+    "name": "Modera Wealth Management",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moderawealthmanagement",
+    "ats": "greenhouse",
+    "board": "moderawealthmanagement",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-modernanimal",
+    "name": "Modern Animal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/modernanimal",
+    "ats": "greenhouse",
+    "board": "modernanimal",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-modernhealth",
+    "name": "Modern Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/modernhealth",
+    "ats": "greenhouse",
+    "board": "modernhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-modulrfinance",
+    "name": "Modulr",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/modulrfinance",
+    "ats": "greenhouse",
+    "board": "modulrfinance",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mogli",
+    "name": "Mogli Technologies",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mogli",
+    "ats": "greenhouse",
+    "board": "mogli",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moia",
+    "name": "MOIA GmbH",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moia",
+    "ats": "greenhouse",
+    "board": "moia",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mojangab",
+    "name": "Mojang Studios",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mojangab",
+    "ats": "greenhouse",
+    "board": "mojangab",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moloco",
+    "name": "Moloco",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moloco",
+    "ats": "greenhouse",
+    "board": "moloco",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moltonbrown",
+    "name": "Molton Brown",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moltonbrown",
+    "ats": "greenhouse",
+    "board": "moltonbrown",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-momence",
+    "name": "Momence",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/momence",
+    "ats": "greenhouse",
+    "board": "momence",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-momentumfinancialservicesgroup",
+    "name": "Momentum Financial Services Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/momentumfinancialservicesgroup",
+    "ats": "greenhouse",
+    "board": "momentumfinancialservicesgroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moneyherogroup",
+    "name": "MoneyHero Group",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moneyherogroup",
+    "ats": "greenhouse",
+    "board": "moneyherogroup",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-mongodb",
+    "name": "MongoDB",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/mongodb",
+    "ats": "greenhouse",
+    "board": "mongodb",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moniepoint",
+    "name": "Moniepoint",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moniepoint",
+    "ats": "greenhouse",
+    "board": "moniepoint",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monks",
+    "name": "Monks",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monks",
+    "ats": "greenhouse",
+    "board": "monks",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monocl",
+    "name": "Definitive Healthcare, Sweden",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monocl",
+    "ats": "greenhouse",
+    "board": "monocl",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monumentalsports",
+    "name": "Monumental Sports & Entertainment",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monumentalsports",
+    "ats": "greenhouse",
+    "board": "monumentalsports",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monumentsoftwareinc",
+    "name": "Monument Software, Inc.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monumentsoftwareinc",
+    "ats": "greenhouse",
+    "board": "monumentsoftwareinc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monzo",
+    "name": "Monzo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monzo",
+    "ats": "greenhouse",
+    "board": "monzo",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-monzoreferrals",
+    "name": "Referrals Only",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/monzoreferrals",
+    "ats": "greenhouse",
+    "board": "monzoreferrals",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moodhealth",
+    "name": "Mood Health",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moodhealth",
+    "ats": "greenhouse",
+    "board": "moodhealth",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moonfare",
+    "name": "Moonfare",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moonfare",
+    "ats": "greenhouse",
+    "board": "moonfare",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-moonlite",
+    "name": "Moonlite",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/moonlite",
+    "ats": "greenhouse",
+    "board": "moonlite",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-morganfranklinconsultingllc",
+    "name": "Highspring",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/morganfranklinconsultingllc",
+    "ats": "greenhouse",
+    "board": "morganfranklinconsultingllc",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-morganmorganjobsapplynow",
+    "name": "Morgan & Morgan, P.A.",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/morganmorganjobsapplynow",
+    "ats": "greenhouse",
+    "board": "morganmorganjobsapplynow",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-morsecorp",
+    "name": "MORSE Corp",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/morsecorp",
+    "ats": "greenhouse",
+    "board": "morsecorp",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-watershed",
+    "name": "Watershed",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/watershed",
+    "ats": "greenhouse",
+    "board": "watershed",
+    "discovered": true
+  },
+  {
+    "id": "ashby-kikoff",
+    "name": "Kikoff",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/kikoff",
+    "ats": "ashby",
+    "board": "kikoff",
+    "discovered": true
+  },
+  {
+    "id": "ashby-known",
+    "name": "Known",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/known",
+    "ats": "ashby",
+    "board": "known",
+    "discovered": true
+  },
+  {
+    "id": "ashby-machinify",
+    "name": "Machinify",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/machinify",
+    "ats": "ashby",
+    "board": "machinify",
+    "discovered": true
+  },
+  {
+    "id": "ashby-meridian",
+    "name": "Meridian",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/meridian",
+    "ats": "ashby",
+    "board": "meridian",
+    "discovered": true
+  },
+  {
+    "id": "ashby-tribe-xyz",
+    "name": "Tribe Xyz",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.ashbyhq.com/tribe-xyz",
+    "ats": "ashby",
+    "board": "tribe-xyz",
+    "discovered": true
+  },
+  {
+    "id": "lever-juno",
+    "name": "Juno",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/juno",
+    "ats": "lever",
+    "board": "juno",
+    "discovered": true
+  },
+  {
+    "id": "lever-karat",
+    "name": "Karat",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/karat",
+    "ats": "lever",
+    "board": "karat",
+    "discovered": true
+  },
+  {
+    "id": "lever-klaviyo",
+    "name": "Klaviyo",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/klaviyo",
+    "ats": "lever",
+    "board": "klaviyo",
+    "discovered": true
+  },
+  {
+    "id": "lever-kodiak",
+    "name": "Kodiak",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/kodiak",
+    "ats": "lever",
+    "board": "kodiak",
+    "discovered": true
+  },
+  {
+    "id": "lever-labelbox",
+    "name": "Labelbox",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/labelbox",
+    "ats": "lever",
+    "board": "labelbox",
+    "discovered": true
+  },
+  {
+    "id": "lever-lemurian-labs",
+    "name": "Lemurian Labs",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/lemurian-labs",
+    "ats": "lever",
+    "board": "lemurian-labs",
+    "discovered": true
+  },
+  {
+    "id": "lever-liminal",
+    "name": "Liminal",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/liminal",
+    "ats": "lever",
+    "board": "liminal",
+    "discovered": true
+  },
+  {
+    "id": "lever-manifest",
+    "name": "Manifest",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/manifest",
+    "ats": "lever",
+    "board": "manifest",
+    "discovered": true
+  },
+  {
+    "id": "lever-mattermost",
+    "name": "Mattermost",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/mattermost",
+    "ats": "lever",
+    "board": "mattermost",
+    "discovered": true
+  },
+  {
+    "id": "lever-medium",
+    "name": "Medium",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/medium",
+    "ats": "lever",
+    "board": "medium",
+    "discovered": true
+  },
+  {
+    "id": "lever-mixtiles",
+    "name": "Mixtiles",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/mixtiles",
+    "ats": "lever",
+    "board": "mixtiles",
     "discovered": true
   }
 ]
