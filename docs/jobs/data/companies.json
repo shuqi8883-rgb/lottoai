@@ -2063,16 +2063,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-aperaaiinc",
-    "name": "Apera AI Inc",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/aperaaiinc",
-    "ats": "greenhouse",
-    "board": "aperaaiinc",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-apexcompanies",
     "name": "Apex Companies",
     "category": "公开招聘企业",
@@ -7030,16 +7020,6 @@
     "official": "https://boards.greenhouse.io/coreweaveu",
     "ats": "greenhouse",
     "board": "coreweaveu",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-corporatecareers",
-    "name": "Grandstand",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/corporatecareers",
-    "ats": "greenhouse",
-    "board": "corporatecareers",
     "discovered": true
   },
   {
@@ -38003,16 +37983,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-watershed",
-    "name": "Watershed",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/watershed",
-    "ats": "greenhouse",
-    "board": "watershed",
-    "discovered": true
-  },
-  {
     "id": "lever-kabam",
     "name": "Kabam",
     "category": "公开招聘企业",
@@ -38030,6 +38000,16 @@
     "official": "https://jobs.lever.co/usasurveyjob",
     "ats": "lever",
     "board": "usasurveyjob",
+    "discovered": true
+  },
+  {
+    "id": "greenhouse-goody",
+    "name": "Goody",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://boards.greenhouse.io/goody",
+    "ats": "greenhouse",
+    "board": "goody",
     "discovered": true
   }
 ]
