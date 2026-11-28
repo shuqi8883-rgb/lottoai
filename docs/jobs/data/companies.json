@@ -2963,16 +2963,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-automatticcareers",
-    "name": "Automattic Careers",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/automatticcareers",
-    "ats": "greenhouse",
-    "board": "automatticcareers",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-automox",
     "name": "Automox",
     "category": "公开招聘企业",
@@ -39253,16 +39243,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-pressable",
-    "name": "Pressable",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/pressable",
-    "ats": "greenhouse",
-    "board": "pressable",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-prevail",
     "name": "Prevail",
     "category": "公开招聘企业",
@@ -40300,16 +40280,6 @@
     "official": "https://jobs.lever.co/swissborg",
     "ats": "lever",
     "board": "swissborg",
-    "discovered": true
-  },
-  {
-    "id": "lever-titanelectric-ga",
-    "name": "Titanelectric Ga",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://jobs.lever.co/titanelectric-ga",
-    "ats": "lever",
-    "board": "titanelectric-ga",
     "discovered": true
   },
   {
@@ -42863,16 +42833,6 @@
     "discovered": true
   },
   {
-    "id": "greenhouse-goody",
-    "name": "Goody",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/goody",
-    "ats": "greenhouse",
-    "board": "goody",
-    "discovered": true
-  },
-  {
     "id": "greenhouse-motive",
     "name": "Motive",
     "category": "公开招聘企业",
@@ -42880,16 +42840,6 @@
     "official": "https://boards.greenhouse.io/motive",
     "ats": "greenhouse",
     "board": "motive",
-    "discovered": true
-  },
-  {
-    "id": "greenhouse-watershed",
-    "name": "Watershed",
-    "category": "公开招聘企业",
-    "regions": "全球/中国待识别",
-    "official": "https://boards.greenhouse.io/watershed",
-    "ats": "greenhouse",
-    "board": "watershed",
     "discovered": true
   },
   {
@@ -43000,6 +42950,16 @@
     "official": "https://jobs.lever.co/motive",
     "ats": "lever",
     "board": "motive",
+    "discovered": true
+  },
+  {
+    "id": "lever-jobgether",
+    "name": "Jobgether",
+    "category": "公开招聘企业",
+    "regions": "全球/中国待识别",
+    "official": "https://jobs.lever.co/jobgether",
+    "ats": "lever",
+    "board": "jobgether",
     "discovered": true
   }
 ]
